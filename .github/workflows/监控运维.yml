@@ -1,0 +1,20 @@
+name: 监控运维 Check
+
+on:
+  push:
+    paths:
+      - '监控运维/**'
+  pull_request:
+    paths:
+      - '监控运维/**'
+
+jobs:
+  shellcheck:
+    name: Shellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run ShellCheck
+        uses: ludeeus/action-shellcheck@master
+        with:
+          scandir: './监控运维'

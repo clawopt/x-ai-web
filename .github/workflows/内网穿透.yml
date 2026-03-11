@@ -1,0 +1,20 @@
+name: 内网穿透 Check
+
+on:
+  push:
+    paths:
+      - '内网穿透/**'
+  pull_request:
+    paths:
+      - '内网穿透/**'
+
+jobs:
+  shellcheck:
+    name: Shellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run ShellCheck
+        uses: ludeeus/action-shellcheck@master
+        with:
+          scandir: './内网穿透'
