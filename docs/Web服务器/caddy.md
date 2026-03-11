@@ -53,3 +53,8 @@ echo "  配置目录: /etc/caddy/"
 echo ""
 
 ```
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/Web服务器/caddy.sh)

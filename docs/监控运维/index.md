@@ -28,3 +28,8 @@
 - [grafana-loki.sh](./grafana-loki)
 - [telegraf.sh](./telegraf)
 - [prometheus-grafana.sh](./prometheus-grafana)
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/监控运维/index.sh)

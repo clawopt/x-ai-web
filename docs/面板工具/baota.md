@@ -68,3 +68,8 @@ echo "    bt default"
 echo ""
 
 ```
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/面板工具/baota.sh)

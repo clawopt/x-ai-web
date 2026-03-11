@@ -71,3 +71,8 @@ echo "配置文件: /etc/mongod.conf"
 echo ""
 
 ```
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/数据库/mongodb.sh)

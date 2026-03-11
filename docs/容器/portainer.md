@@ -52,3 +52,8 @@ echo "  docker logs -f portainer      查看日志"
 echo ""
 
 ```
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/容器/portainer.sh)

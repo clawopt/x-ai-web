@@ -89,3 +89,8 @@ echo "首次登录后请立即修改密码!"
 echo ""
 
 ```
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/面板工具/nginx-proxy-manager.sh)

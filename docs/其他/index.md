@@ -415,3 +415,8 @@
 - [generic-tool-47.sh](./generic-tool-47)
 - [generic-tool-246.sh](./generic-tool-246)
 - [generic-tool-368.sh](./generic-tool-368)
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/其他/index.sh)

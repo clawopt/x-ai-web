@@ -60,3 +60,8 @@ echo "  默认端口: 5672"
 echo ""
 
 ```
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/其他/rabbitmq.sh)

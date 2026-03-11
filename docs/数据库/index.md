@@ -27,3 +27,8 @@
 - [mariadb.sh](./mariadb)
 - [redis.sh](./redis)
 - [cassandra.sh](./cassandra)
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/数据库/index.sh)

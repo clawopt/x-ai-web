@@ -52,3 +52,8 @@ echo "  docker compose ps              查看状态"
 echo ""
 
 ```
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/容器/docker-compose.sh)

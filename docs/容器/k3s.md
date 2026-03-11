@@ -47,3 +47,8 @@ echo "  curl -sfL https://get.k3s.io | K3S_URL=https://master_ip:6443 K3S_TOKEN=
 echo ""
 
 ```
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/容器/k3s.sh)

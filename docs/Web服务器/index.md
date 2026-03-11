@@ -17,3 +17,8 @@
 - [varnish.sh](./varnish)
 - [envoy.sh](./envoy)
 - [caddy.sh](./caddy)
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/Web服务器/index.sh)

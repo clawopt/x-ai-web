@@ -48,3 +48,8 @@ echo "网站根目录: /var/www/html/"
 echo ""
 
 ```
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/Web服务器/nginx.sh)

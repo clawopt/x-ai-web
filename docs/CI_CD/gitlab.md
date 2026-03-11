@@ -56,3 +56,8 @@ echo ""
 echo "配置文件: /etc/gitlab/gitlab.rb"
 
 ```
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/CI_CD/gitlab.sh)

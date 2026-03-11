@@ -111,3 +111,8 @@ echo "  默认账号: admin / admin"
 echo ""
 
 ```
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/监控运维/prometheus-grafana.sh)

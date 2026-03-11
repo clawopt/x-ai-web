@@ -55,3 +55,8 @@ echo "  初始密码: $(cat /var/lib/jenkins/secrets/initialAdminPassword)"
 echo ""
 
 ```
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/CI_CD/jenkins.sh)

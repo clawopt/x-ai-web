@@ -62,3 +62,8 @@ echo "数据目录: /var/lib/mysql/"
 echo ""
 
 ```
+
+
+---
+
+[![Download Script](https://img.shields.io/badge/Download-Script-blue?style=flat-square)](https://raw.githubusercontent.com/clawopt/ops-scripts/main/数据库/mysql.sh)
