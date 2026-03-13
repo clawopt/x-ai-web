@@ -1,6 +1,6 @@
 # 💻 计算机语言
 
-欢迎来到计算机学习板块。涵盖主流编程语言和开发工具。
+欢迎来到计算机学习板块。涵盖主流编程语言、SQL和开发工具。
 
 ## 📂 选择分类
 
@@ -71,6 +71,11 @@
 <a href="/计算机语言/编程语言/Shell" class="mini-card">
   <span class="icon">🐚</span>
   <span class="name">Shell</span>
+</a>
+
+<a href="/计算机语言/编程语言/SQL" class="mini-card">
+  <span class="icon">🗄️</span>
+  <span class="name">SQL</span>
 </a>
 
 </div>

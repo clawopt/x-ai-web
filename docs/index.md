@@ -15,15 +15,15 @@ hero:
 
 features:
   - title: "💻 计算机语言"
-    details: "编程语言：Java/Python/Go/C++/JS 构建工具：Git/CMake/Make"
+    details: "编程语言：Java/Python/Go/C++/JS/TS/SQL/Shell + 构建工具：Git/CMake/Maven"
     link: "/计算机语言"
 
   - title: "🛠️ 专业技能"
-    details: "前端框架/后端框架/计算机基础/Linux/DevOps/容器化/数据库/大数据/游戏开发/AI"
+    details: "前端框架/后端框架/计算机基础/ DevOps/容器化/数据库/大数据/游戏开发"
     link: "/专业技能"
 
   - title: "🤖 AI时代"
-    details: "算法与数据结构/大语言模型/深度学习"
+    details: "AI基础入门/机器学习/深度学习/LLM/AI框架工具/AIGC应用开发"
     link: "/AI时代"
 
 ---
@@ -38,7 +38,7 @@ features:
     <div class="stat-label">学习方向</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">70+</div>
+    <div class="stat-number">80+</div>
     <div class="stat-label">核心教程</div>
   </div>
   <div class="stat-card">
