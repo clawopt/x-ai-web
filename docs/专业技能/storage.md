@@ -149,4 +149,4 @@ echo "noop" > /sys/block/sda/queue/scheduler
 
 ---
 
-**下一步**： [第二章：存储进阶](./advanced.html)
+

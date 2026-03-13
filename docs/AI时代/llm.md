@@ -193,4 +193,4 @@ relevant_docs = retriever.get_relevant_documents(query)
 
 ---
 
-**下一步**： [第二章：大模型进阶](./advanced.html)
+
