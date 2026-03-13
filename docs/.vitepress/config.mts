@@ -4,6 +4,7 @@ export default defineConfig({
   title: "ByteTech",
   description: "面向 AI 时代的计算机学习入口",
   lang: 'zh-CN',
+  cleanUrls: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'keywords', content: '计算机教程,编程学习,Java,C++,Git,AI,机器学习,深度学习,数据结构,算法' }],
@@ -13,7 +14,6 @@ export default defineConfig({
     logo: '💻',
     siteTitle: 'ByteTech',
     search: { provider: 'local' },
-    ignoreDeadLinks: true,
     
     nav: [
       { text: '🏠 首页', link: '/' },
