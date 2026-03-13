@@ -91,13 +91,19 @@ body {
 
 /* 导航栏 */
 .VPNav {
-  background: rgba(15, 23, 42, 0.95) !important;
+  background: rgba(255, 255, 255, 0.95) !important;
   backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border) !important;
   box-shadow: var(--shadow-lg);
   position: sticky !important;
   top: 0 !important;
   z-index: 100 !important;
+  transition: background 0.3s ease !important;
+}
+
+/* 深色模式下的导航栏 */
+.dark .VPNav {
+  background: rgba(15, 23, 42, 0.95) !important;
 }
 
 .VPNavBar {
