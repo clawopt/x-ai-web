@@ -68,6 +68,11 @@
   <span class="name">Kotlin</span>
 </a>
 
+<a href="/计算机语言/编程语言/Shell" class="mini-card">
+  <span class="icon">🐚</span>
+  <span class="name">Shell</span>
+</a>
+
 </div>
 
 ### 🔧 构建工具
@@ -131,14 +136,17 @@
   border-color: var(--vp-c-brand-1);
   background: var(--vp-c-bg-elv);
   transform: translateY(-2px);
+  text-decoration: none;
 }
 
 .mini-card .icon {
   font-size: 18px;
+  text-decoration: none;
 }
 
 .mini-card .name {
   font-size: 0.85rem;
   font-weight: 500;
+  text-decoration: none;
 }
 </style>
