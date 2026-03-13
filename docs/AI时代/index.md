@@ -1,24 +1,24 @@
 # 🤖 AI时代
 
-欢迎来到AI时代板块。掌握数据结构算法、大模型、深度学习，紧跟AI浪潮。
+欢迎来到AI时代板块。掌握大模型、深度学习，紧跟AI浪潮。
 
 ## 📂 选择分类
 
-### 🧠 数据结构与算法
+### 🧠 算法与数据结构
 
 <div class="compact-grid">
 
-<a href="/AI时代/algorithm" class="mini-card">
+<a href="/AI时代/算法/基础" class="mini-card">
   <span class="icon">🧠</span>
   <span class="name">算法基础</span>
 </a>
 
-<a href="/AI时代/algorithm/dp" class="mini-card">
+<a href="/AI时代/算法/动态规划" class="mini-card">
   <span class="icon">📈</span>
   <span class="name">动态规划</span>
 </a>
 
-<a href="/AI时代/algorithm/graph" class="mini-card">
+<a href="/AI时代/算法/图论" class="mini-card">
   <span class="icon">🕸️</span>
   <span class="name">图论</span>
 </a>
@@ -29,17 +29,17 @@
 
 <div class="compact-grid">
 
-<a href="/AI时代/llm" class="mini-card">
+<a href="/AI时代/LLM/入门" class="mini-card">
   <span class="icon">📝</span>
   <span class="name">LLM入门</span>
 </a>
 
-<a href="/AI时代/llm/prompt" class="mini-card">
+<a href="/AI时代/LLM/提示词工程" class="mini-card">
   <span class="icon">💬</span>
-  <span class="name">Prompt工程</span>
+  <span class="name">提示词工程</span>
 </a>
 
-<a href="/AI时代/llm/rag" class="mini-card">
+<a href="/AI时代/LLM/RAG" class="mini-card">
   <span class="icon">📚</span>
   <span class="name">RAG架构</span>
 </a>
@@ -50,22 +50,22 @@
 
 <div class="compact-grid">
 
-<a href="/AI时代/deeplearning" class="mini-card">
+<a href="/AI时代/深度学习/基础" class="mini-card">
   <span class="icon">🔥</span>
   <span class="name">深度学习基础</span>
 </a>
 
-<a href="/AI时代/deeplearning/cnn" class="mini-card">
+<a href="/AI时代/深度学习/CNN" class="mini-card">
   <span class="icon">👁️</span>
   <span class="name">CNN</span>
 </a>
 
-<a href="/AI时代/deeplearning/rnn" class="mini-card">
+<a href="/AI时代/深度学习/RNN" class="mini-card">
   <span class="icon">🔄</span>
   <span class="name">RNN</span>
 </a>
 
-<a href="/AI时代/deeplearning/transformer" class="mini-card">
+<a href="/AI时代/深度学习/Transformer" class="mini-card">
   <span class="icon">🔮</span>
   <span class="name">Transformer</span>
 </a>

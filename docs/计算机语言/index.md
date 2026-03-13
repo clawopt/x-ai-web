@@ -1,82 +1,107 @@
 # 💻 计算机语言
 
-欢迎来到计算机学习板块。涵盖前端、后端、运维等全栈技术。
+欢迎来到计算机学习板块。涵盖主流编程语言和开发工具。
 
 ## 📂 选择分类
 
-### 🚀 前端开发
+### 🖥️ 编程语言
 
 <div class="compact-grid">
 
-<a href="/计算机语言/前端/html" class="mini-card">
-  <span class="icon">📄</span>
-  <span class="name">HTML</span>
-</a>
-
-<a href="/计算机语言/前端/css" class="mini-card">
-  <span class="icon">🎨</span>
-  <span class="name">CSS</span>
-</a>
-
-<a href="/计算机语言/前端/javascript" class="mini-card">
-  <span class="icon">⚡</span>
-  <span class="name">JavaScript</span>
-</a>
-
-<a href="/计算机语言/前端/typescript" class="mini-card">
-  <span class="icon">🔷</span>
-  <span class="name">TypeScript</span>
-</a>
-
-<a href="/计算机语言/前端/react" class="mini-card">
-  <span class="icon">⚛️</span>
-  <span class="name">React</span>
-</a>
-
-<a href="/计算机语言/前端/vue" class="mini-card">
-  <span class="icon">💚</span>
-  <span class="name">Vue</span>
-</a>
-
-</div>
-
-### ⚙️ 后端开发
-
-<div class="compact-grid">
-
-<a href="/计算机语言/后端/java" class="mini-card">
+<a href="/计算机语言/编程语言/java" class="mini-card">
   <span class="icon">☕</span>
   <span class="name">Java</span>
 </a>
 
-<a href="/计算机语言/后端/python" class="mini-card">
+<a href="/计算机语言/编程语言/python" class="mini-card">
   <span class="icon">🐍</span>
   <span class="name">Python</span>
 </a>
 
-<a href="/计算机语言/后端/go" class="mini-card">
+<a href="/计算机语言/编程语言/go" class="mini-card">
   <span class="icon">🐹</span>
   <span class="name">Go</span>
 </a>
 
-<a href="/计算机语言/后端/cpp" class="mini-card">
+<a href="/计算机语言/编程语言/cpp" class="mini-card">
   <span class="icon">⚡</span>
   <span class="name">C++</span>
 </a>
 
-<a href="/计算机语言/后端/csharp" class="mini-card">
+<a href="/计算机语言/编程语言/csharp" class="mini-card">
   <span class="icon">🔶</span>
   <span class="name">C#</span>
 </a>
 
-<a href="/计算机语言/后端/rust" class="mini-card">
+<a href="/计算机语言/编程语言/rust" class="mini-card">
   <span class="icon">🦀</span>
   <span class="name">Rust</span>
 </a>
 
-<a href="/计算机语言/后端/nodejs" class="mini-card">
-  <span class="icon">🟢</span>
-  <span class="name">Node.js</span>
+<a href="/计算机语言/编程语言/javascript" class="mini-card">
+  <span class="icon">⚡</span>
+  <span class="name">JavaScript</span>
+</a>
+
+<a href="/计算机语言/编程语言/typescript" class="mini-card">
+  <span class="icon">🔷</span>
+  <span class="name">TypeScript</span>
+</a>
+
+<a href="/计算机语言/编程语言/php" class="mini-card">
+  <span class="icon">🐘</span>
+  <span class="name">PHP</span>
+</a>
+
+<a href="/计算机语言/编程语言/ruby" class="mini-card">
+  <span class="icon">💎</span>
+  <span class="name">Ruby</span>
+</a>
+
+<a href="/计算机语言/编程语言/swift" class="mini-card">
+  <span class="icon">🍎</span>
+  <span class="name">Swift</span>
+</a>
+
+<a href="/计算机语言/编程语言/kotlin" class="mini-card">
+  <span class="icon">🟣</span>
+  <span class="name">Kotlin</span>
+</a>
+
+</div>
+
+### 🔧 构建工具
+
+<div class="compact-grid">
+
+<a href="/计算机语言/构建工具/git" class="mini-card">
+  <span class="icon">🔰</span>
+  <span class="name">Git</span>
+</a>
+
+<a href="/计算机语言/构建工具/cmake" class="mini-card">
+  <span class="icon">⚙️</span>
+  <span class="name">CMake</span>
+</a>
+
+<a href="/计算机语言/构建工具/make" class="mini-card">
+  <span class="icon">🔨</span>
+  <span class="name">Make</span>
+</a>
+
+<a href="/计算机语言/构建工具/maven" class="mini-card">
+  <span class="icon">🅰️</span>
+  <span class="name">Maven</span>
+</a>
+
+<a href="/计算机语言/构建工具/gradle" class="mini-card">
+  <span class="icon">🐘</span>
+  <span class="name">Gradle</span>
+</a>
+
+<a href="/计算机语言/构建工具/npm" class="mini-card">
+  <span class="icon">📦</span>
+  <span class="name">npm</span>
 </a>
 
 </div>
@@ -113,7 +138,7 @@
 }
 
 .mini-card .name {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 500;
 }
 </style>

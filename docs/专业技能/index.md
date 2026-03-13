@@ -1,104 +1,180 @@
 # 🛠️ 专业技能
 
-欢迎来到专业技能板块。涵盖前端、后端、游戏、大数据、容器化、数据库、操作系统、网络、Linux等核心技术。
+欢迎来到专业技能板块。涵盖前端框架、后端框架、计算机基础、DevOps、数据库、大数据等核心技术。
 
 ## 📂 选择分类
 
-### 🎨 前端开发
+### ⚛️ 前端框架
 
 <div class="compact-grid">
 
-<a href="/专业技能/前端开发/react" class="mini-card">
+<a href="/专业技能/前端框架/react" class="mini-card">
   <span class="icon">⚛️</span>
   <span class="name">React</span>
 </a>
 
-<a href="/专业技能/前端开发/vue" class="mini-card">
+<a href="/专业技能/前端框架/vue" class="mini-card">
   <span class="icon">💚</span>
   <span class="name">Vue</span>
 </a>
 
-<a href="/专业技能/前端开发/angular" class="mini-card">
+<a href="/专业技能/前端框架/angular" class="mini-card">
   <span class="icon">🅰️</span>
   <span class="name">Angular</span>
 </a>
 
-<a href="/专业技能/前端开发/typescript" class="mini-card">
-  <span class="icon">🔷</span>
-  <span class="name">TypeScript</span>
+<a href="/专业技能/前端框架/svelte" class="mini-card">
+  <span class="icon">🔥</span>
+  <span class="name">Svelte</span>
+</a>
+
+<a href="/专业技能/前端框架/nextjs" class="mini-card">
+  <span class="icon">▲</span>
+  <span class="name">Next.js</span>
+</a>
+
+<a href="/专业技能/前端框架/nuxt" class="mini-card">
+  <span class="icon">💚</span>
+  <span class="name">Nuxt</span>
 </a>
 
 </div>
 
-### ☕ 后端开发
+### ☕ 后端框架
 
 <div class="compact-grid">
 
-<a href="/专业技能/后端开发/spring" class="mini-card">
+<a href="/专业技能/后端框架/spring" class="mini-card">
   <span class="icon">🍃</span>
   <span class="name">Spring</span>
 </a>
 
-<a href="/专业技能/后端开发/springcloud" class="mini-card">
+<a href="/专业技能/后端框架/springcloud" class="mini-card">
   <span class="icon">☁️</span>
   <span class="name">Spring Cloud</span>
 </a>
 
-<a href="/专业技能/后端开发/django" class="mini-card">
+<a href="/专业技能/后端框架/django" class="mini-card">
   <span class="icon">🐈</span>
   <span class="name">Django</span>
 </a>
 
-<a href="/专业技能/后端开发/fastapi" class="mini-card">
+<a href="/专业技能/后端框架/fastapi" class="mini-card">
   <span class="icon">⚡</span>
   <span class="name">FastAPI</span>
 </a>
 
+<a href="/专业技能/后端框架/gin" class="mini-card">
+  <span class="icon">🐹</span>
+  <span class="name">Gin</span>
+</a>
+
+<a href="/专业技能/后端框架/express" class="mini-card">
+  <span class="icon">🟢</span>
+  <span class="name">Express</span>
+</a>
+
+<a href="/专业技能/后端框架/flask" class="mini-card">
+  <span class="icon">🌶️</span>
+  <span class="name">Flask</span>
+</a>
+
+<a href="/专业技能/后端框架/aspnet" class="mini-card">
+  <span class="icon">🔷</span>
+  <span class="name">ASP.NET</span>
+</a>
+
 </div>
 
-### 🎮 游戏开发
+### 💻 计算机基础
 
 <div class="compact-grid">
 
-<a href="/专业技能/游戏开发/unity" class="mini-card">
-  <span class="icon">🎯</span>
-  <span class="name">Unity</span>
+<a href="/专业技能/计算机基础/操作系统" class="mini-card">
+  <span class="icon">🖥️</span>
+  <span class="name">操作系统</span>
 </a>
 
-<a href="/专业技能/游戏开发/unreal" class="mini-card">
-  <span class="icon">🏰</span>
-  <span class="name">Unreal</span>
+<a href="/专业技能/计算机基础/计算机网络" class="mini-card">
+  <span class="icon">🌐</span>
+  <span class="name">计算机网络</span>
 </a>
 
-<a href="/专业技能/游戏开发/godot" class="mini-card">
-  <span class="icon">👾</span>
-  <span class="name">Godot</span>
+<a href="/专业技能/计算机基础/数据结构" class="mini-card">
+  <span class="icon">🧠</span>
+  <span class="name">数据结构</span>
+</a>
+
+<a href="/专业技能/计算机基础/算法" class="mini-card">
+  <span class="icon">📊</span>
+  <span class="name">算法</span>
+</a>
+
+<a href="/专业技能/计算机基础/编译原理" class="mini-card">
+  <span class="icon">🔨</span>
+  <span class="name">编译原理</span>
 </a>
 
 </div>
 
-### 📊 大数据
+### 🐧 Linux
 
 <div class="compact-grid">
 
-<a href="/专业技能/大数据/hadoop" class="mini-card">
-  <span class="icon">🐘</span>
-  <span class="name">Hadoop</span>
+<a href="/专业技能/Linux/入门" class="mini-card">
+  <span class="icon">🐧</span>
+  <span class="name">Linux入门</span>
 </a>
 
-<a href="/专业技能/大数据/spark" class="mini-card">
-  <span class="icon">🔥</span>
-  <span class="name">Spark</span>
+<a href="/专业技能/Linux/shell" class="mini-card">
+  <span class="icon">🐚</span>
+  <span class="name">Shell编程</span>
 </a>
 
-<a href="/专业技能/大数据/flink" class="mini-card">
-  <span class="icon">🌊</span>
-  <span class="name">Flink</span>
+<a href="/专业技能/Linux/命令" class="mini-card">
+  <span class="icon">⌨️</span>
+  <span class="name">常用命令</span>
 </a>
 
-<a href="/专业技能/大数据/kafka" class="mini-card">
-  <span class="icon">📨</span>
-  <span class="name">Kafka</span>
+<a href="/专业技能/Linux/运维" class="mini-card">
+  <span class="icon">🛠️</span>
+  <span class="name">运维实战</span>
+</a>
+
+</div>
+
+### 🔄 DevOps
+
+<div class="compact-grid">
+
+<a href="/专业技能/DevOps/github-actions" class="mini-card">
+  <span class="icon">🐙</span>
+  <span class="name">GitHub Actions</span>
+</a>
+
+<a href="/专业技能/DevOps/gitlab-ci" class="mini-card">
+  <span class="icon">🦊</span>
+  <span class="name">GitLab CI</span>
+</a>
+
+<a href="/专业技能/DevOps/jenkins" class="mini-card">
+  <span class="icon">🔧</span>
+  <span class="name">Jenkins</span>
+</a>
+
+<a href="/专业技能/DevOps/argo" class="mini-card">
+  <span class="icon">⚓</span>
+  <span class="name">Argo CD</span>
+</a>
+
+<a href="/专业技能/DevOps/tekton" class="mini-card">
+  <span class="icon">🔩</span>
+  <span class="name">Tekton</span>
+</a>
+
+<a href="/专业技能/DevOps/terraform" class="mini-card">
+  <span class="icon">🏗️</span>
+  <span class="name">Terraform</span>
 </a>
 
 </div>
@@ -120,6 +196,11 @@
 <a href="/专业技能/容器化/k3s" class="mini-card">
   <span class="icon">🔵</span>
   <span class="name">K3s</span>
+</a>
+
+<a href="/专业技能/容器化/docker-compose" class="mini-card">
+  <span class="icon">🐳</span>
+  <span class="name">Docker Compose</span>
 </a>
 
 </div>
@@ -148,72 +229,97 @@
   <span class="name">MongoDB</span>
 </a>
 
-</div>
-
-### 💻 操作系统
-
-<div class="compact-grid">
-
-<a href="/专业技能/操作系统/intro" class="mini-card">
-  <span class="icon">🖥️</span>
-  <span class="name">操作系统原理</span>
+<a href="/专业技能/数据库/sqlite" class="mini-card">
+  <span class="icon">📄</span>
+  <span class="name">SQLite</span>
 </a>
 
-<a href="/专业技能/操作系统/process" class="mini-card">
-  <span class="icon">⚙️</span>
-  <span class="name">进程管理</span>
-</a>
-
-<a href="/专业技能/操作系统/memory" class="mini-card">
-  <span class="icon">🧠</span>
-  <span class="name">内存管理</span>
+<a href="/专业技能/数据库/oracle" class="mini-card">
+  <span class="icon">🔶</span>
+  <span class="name">Oracle</span>
 </a>
 
 </div>
 
-### 🌐 网络
+### 📊 大数据
 
 <div class="compact-grid">
 
-<a href="/专业技能/网络/tcpip" class="mini-card">
-  <span class="icon">🌐</span>
-  <span class="name">TCP/IP</span>
+<a href="/专业技能/大数据/hadoop" class="mini-card">
+  <span class="icon">🐘</span>
+  <span class="name">Hadoop</span>
 </a>
 
-<a href="/专业技能/网络/http" class="mini-card">
-  <span class="icon">📡</span>
-  <span class="name">HTTP</span>
+<a href="/专业技能/大数据/spark" class="mini-card">
+  <span class="icon">🔥</span>
+  <span class="name">Spark</span>
 </a>
 
-<a href="/专业技能/网络/security" class="mini-card">
-  <span class="icon">🔒</span>
-  <span class="name">网络安全</span>
+<a href="/专业技能/大数据/flink" class="mini-card">
+  <span class="icon">🌊</span>
+  <span class="name">Flink</span>
+</a>
+
+<a href="/专业技能/大数据/kafka" class="mini-card">
+  <span class="icon">📨</span>
+  <span class="name">Kafka</span>
+</a>
+
+<a href="/专业技能/大数据/hive" class="mini-card">
+  <span class="icon">🐝</span>
+  <span class="name">Hive</span>
 </a>
 
 </div>
 
-### 🐧 Linux
+### 🎮 游戏开发
 
 <div class="compact-grid">
 
-<a href="/专业技能/Linux/intro" class="mini-card">
-  <span class="icon">🐧</span>
-  <span class="name">Linux入门</span>
+<a href="/专业技能/游戏开发/unity" class="mini-card">
+  <span class="icon">🎯</span>
+  <span class="name">Unity</span>
 </a>
 
-<a href="/专业技能/Linux/shell" class="mini-card">
-  <span class="icon">🐚</span>
-  <span class="name">Shell编程</span>
+<a href="/专业技能/游戏开发/unreal" class="mini-card">
+  <span class="icon">🏰</span>
+  <span class="name">Unreal</span>
 </a>
 
-<a href="/专业技能/Linux/commands" class="mini-card">
-  <span class="icon">⌨️</span>
-  <span class="name">常用命令</span>
+<a href="/专业技能/游戏开发/godot" class="mini-card">
+  <span class="icon">👾</span>
+  <span class="name">Godot</span>
 </a>
 
-<a href="/专业技能/Linux/ops" class="mini-card">
-  <span class="icon">🛠️</span>
-  <span class="name">运维实战</span>
+<a href="/专业技能/游戏开发/cocos" class="mini-card">
+  <span class="icon">🥥</span>
+  <span class="name">Cocos</span>
+</a>
+
+</div>
+
+### 🤖 AI/机器学习
+
+<div class="compact-grid">
+
+<a href="/专业技能/AI/大模型" class="mini-card">
+  <span class="icon">📝</span>
+  <span class="name">大模型</span>
+</a>
+
+<a href="/专业技能/AI/深度学习" class="mini-card">
+  <span class="icon">🔥</span>
+  <span class="name">深度学习</span>
+</a>
+
+<a href="/专业技能/AI/pytorch" class="mini-card">
+  <span class="icon">🔥</span>
+  <span class="name">PyTorch</span>
+</a>
+
+<a href="/专业技能/AI/tensorflow" class="mini-card">
+  <span class="icon">📊</span>
+  <span class="name">TensorFlow</span>
 </a>
 
 </div>
