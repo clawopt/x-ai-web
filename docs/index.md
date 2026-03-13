@@ -11,16 +11,12 @@ hero:
       link: "/计算机语言"
     - theme: alt
       text: "📚 浏览教程"
-      link: "/开发工具"
+      link: "/专业技能"
 
 features:
   - title: "💻 计算机语言"
-    details: "Java、C++、Python等编程语言系统学习，从入门到进阶"
+    details: "Java、C++、Git、CMake、Make等编程语言和开发工具"
     link: "/计算机语言"
-
-  - title: "🔧 开发工具"
-    details: "Git、CMake、Make等开发必备工具精讲"
-    link: "/开发工具"
 
   - title: "🛠️ 专业技能"
     details: "数据库、存储、大数据等核心技术能力"
@@ -38,11 +34,11 @@ features:
 
 <div class="stats-grid">
   <div class="stat-card">
-    <div class="stat-number">4</div>
+    <div class="stat-number">3</div>
     <div class="stat-label">学习方向</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">12</div>
+    <div class="stat-number">11</div>
     <div class="stat-label">核心教程</div>
   </div>
   <div class="stat-card">
@@ -59,24 +55,24 @@ features:
 
 <div class="quick-links-grid">
   <div class="quick-link-card">
-    <span class="icon">💻</span>
+    <span class="icon">☕</span>
     <div class="title">Java</div>
     <a href="/计算机语言" class="link">查看教程 →</a>
   </div>
   <div class="quick-link-card">
-    <span class="icon">🖥️</span>
+    <span class="icon">⚡</span>
     <div class="title">C++</div>
     <a href="/计算机语言" class="link">查看教程 →</a>
   </div>
   <div class="quick-link-card">
     <span class="icon">🔰</span>
     <div class="title">Git</div>
-    <a href="/开发工具" class="link">查看教程 →</a>
+    <a href="/计算机语言" class="link">查看教程 →</a>
   </div>
   <div class="quick-link-card">
     <span class="icon">⚙️</span>
     <div class="title">CMake</div>
-    <a href="/开发工具" class="link">查看教程 →</a>
+    <a href="/计算机语言" class="link">查看教程 →</a>
   </div>
   <div class="quick-link-card">
     <span class="icon">🗄️</span>

@@ -25,16 +25,14 @@ export default defineConfig({
     
     nav: [
       { text: '首页', link: '/' },
-      { text: '教程', link: '/计算机语言/java' },
-      { text: '资源', link: '/专业技能/database' },
-      { text: '关于', link: '/AI时代/algorithm' },
+      { text: '计算机语言', link: '/计算机语言' },
+      { text: '专业技能', link: '/专业技能' },
+      { text: 'AI时代', link: '/AI时代' },
       { text: 'GitHub', link: 'https://github.com/clawopt/ops-scripts', icon: 'github' }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/clawopt/ops-scripts' },
-      { icon: 'twitter', link: 'https://twitter.com' },
-      { icon: 'linkedin', link: 'https://linkedin.com' }
+      { icon: 'github', link: 'https://github.com/clawopt/ops-scripts' }
     ],
 
     footer: {
@@ -44,27 +42,18 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '计算机语言',
-        icon: '💻',
+        text: '💻 计算机语言',
         collapsed: false,
         items: [
           { text: 'Java 入门', link: '/计算机语言/java' },
-          { text: 'C++ 入门', link: '/计算机语言/cpp' }
+          { text: 'C++ 入门', link: '/计算机语言/cpp' },
+          { text: 'Git 入门', link: '/计算机语言/git' },
+          { text: 'CMake 入门', link: '/计算机语言/cmake' },
+          { text: 'Make 入门', link: '/计算机语言/make' }
         ]
       },
       {
-        text: '开发工具',
-        icon: '🔧',
-        collapsed: false,
-        items: [
-          { text: 'Git 入门', link: '/开发工具/git' },
-          { text: 'CMake 入门', link: '/开发工具/cmake' },
-          { text: 'Make 入门', link: '/开发工具/make' }
-        ]
-      },
-      {
-        text: '专业技能',
-        icon: '🛠️',
+        text: '🛠️ 专业技能',
         collapsed: false,
         items: [
           { text: '数据库基础', link: '/专业技能/database' },
@@ -73,8 +62,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'AI时代',
-        icon: '🤖',
+        text: '🤖 AI时代',
         collapsed: false,
         items: [
           { text: '数据结构与算法', link: '/AI时代/algorithm' },

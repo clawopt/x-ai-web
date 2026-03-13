@@ -1,6 +1,6 @@
 # 💻 计算机语言
 
-欢迎来到计算机语言学习板块。这里汇集了最主流的编程语言教程，从入门到进阶，带你一步步掌握编程技能。
+欢迎来到计算机学习板块。这里汇集了最主流的编程语言和开发工具教程，从入门到进阶，带你一步步掌握编程技能。
 
 ## 📚 教程列表
 
@@ -20,11 +20,28 @@
   <a href="/计算机语言/cpp" class="course-link">开始学习 →</a>
 </div>
 
+<div class="course-card">
+  <div class="course-icon">🔰</div>
+  <div class="course-title">Git</div>
+  <div class="course-desc">分布式版本控制系统，团队协作必备</div>
+  <a href="/计算机语言/git" class="course-link">开始学习 →</a>
 </div>
 
-## 🚀 快速开始
+<div class="course-card">
+  <div class="course-icon">⚙️</div>
+  <div class="course-title">CMake</div>
+  <div class="course-desc">跨平台构建系统生成器</div>
+  <a href="/计算机语言/cmake" class="course-link">开始学习 →</a>
+</div>
 
-选择你感兴趣的编程语言，点击即可开始学习之旅！
+<div class="course-card">
+  <div class="course-icon">🔨</div>
+  <div class="course-title">Make</div>
+  <div class="course-desc">自动化构建工具，Makefile入门</div>
+  <a href="/计算机语言/make" class="course-link">开始学习 →</a>
+</div>
+
+</div>
 
 <style>
 .course-grid {
