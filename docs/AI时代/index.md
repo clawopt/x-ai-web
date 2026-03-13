@@ -4,27 +4,6 @@
 
 ## 📂 选择分类
 
-### 🧠 算法与数据结构
-
-<div class="compact-grid">
-
-<a href="/AI时代/算法/基础" class="mini-card">
-  <span class="icon">🧠</span>
-  <span class="name">算法基础</span>
-</a>
-
-<a href="/AI时代/算法/动态规划" class="mini-card">
-  <span class="icon">📈</span>
-  <span class="name">动态规划</span>
-</a>
-
-<a href="/AI时代/算法/图论" class="mini-card">
-  <span class="icon">🕸️</span>
-  <span class="name">图论</span>
-</a>
-
-</div>
-
 ### 📝 大语言模型
 
 <div class="compact-grid">
@@ -42,6 +21,16 @@
 <a href="/AI时代/LLM/RAG" class="mini-card">
   <span class="icon">📚</span>
   <span class="name">RAG架构</span>
+</a>
+
+<a href="/AI时代/LLM/微调" class="mini-card">
+  <span class="icon">⚙️</span>
+  <span class="name">模型微调</span>
+</a>
+
+<a href="/AI时代/LLM/部署" class="mini-card">
+  <span class="icon">🚀</span>
+  <span class="name">模型部署</span>
 </a>
 
 </div>
@@ -68,6 +57,11 @@
 <a href="/AI时代/深度学习/Transformer" class="mini-card">
   <span class="icon">🔮</span>
   <span class="name">Transformer</span>
+</a>
+
+<a href="/AI时代/深度学习/框架" class="mini-card">
+  <span class="icon">🛠️</span>
+  <span class="name">框架实战</span>
 </a>
 
 </div>
