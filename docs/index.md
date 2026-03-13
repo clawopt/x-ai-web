@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "ByteTech"
-  text: "迈向AI"
+  text: "，迈向AI"
   tagline: "面向 AI 时代的计算机学习入口 • 系统化学习路径 • 实战导向"
   actions:
     - theme: brand
