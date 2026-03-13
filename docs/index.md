@@ -8,27 +8,27 @@ hero:
   actions:
     - theme: brand
       text: "🚀 开始学习"
-      link: "/计算机语言/java"
+      link: "/计算机语言"
     - theme: alt
       text: "📚 浏览教程"
-      link: "/开发工具/git"
+      link: "/开发工具"
 
 features:
   - title: "💻 计算机语言"
     details: "Java、C++、Python等编程语言系统学习，从入门到进阶"
-    link: "/计算机语言/java"
+    link: "/计算机语言"
 
   - title: "🔧 开发工具"
     details: "Git、CMake、Make等开发必备工具精讲"
-    link: "/开发工具/git"
+    link: "/开发工具"
 
   - title: "🛠️ 专业技能"
     details: "数据库、存储、大数据等核心技术能力"
-    link: "/专业技能/database"
+    link: "/专业技能"
 
   - title: "🤖 AI时代"
     details: "数据结构、算法、大模型、深度学习等AI核心技术"
-    link: "/AI时代/algorithm"
+    link: "/AI时代"
 
 ---
 
@@ -61,145 +61,103 @@ features:
   <div class="quick-link-card">
     <span class="icon">💻</span>
     <div class="title">Java</div>
-    <a href="/计算机语言/java" class="link">开始学习</a>
+    <a href="/计算机语言" class="link">查看教程 →</a>
   </div>
   <div class="quick-link-card">
     <span class="icon">🖥️</span>
     <div class="title">C++</div>
-    <a href="/计算机语言/cpp" class="link">开始学习</a>
+    <a href="/计算机语言" class="link">查看教程 →</a>
   </div>
   <div class="quick-link-card">
     <span class="icon">🔰</span>
     <div class="title">Git</div>
-    <a href="/开发工具/git" class="link">开始学习</a>
+    <a href="/开发工具" class="link">查看教程 →</a>
   </div>
   <div class="quick-link-card">
     <span class="icon">⚙️</span>
     <div class="title">CMake</div>
-    <a href="/开发工具/cmake" class="link">开始学习</a>
+    <a href="/开发工具" class="link">查看教程 →</a>
   </div>
   <div class="quick-link-card">
     <span class="icon">🗄️</span>
     <div class="title">数据库</div>
-    <a href="/专业技能/database" class="link">开始学习</a>
+    <a href="/专业技能" class="link">查看教程 →</a>
   </div>
   <div class="quick-link-card">
     <span class="icon">🧠</span>
     <div class="title">算法</div>
-    <a href="/AI时代/algorithm" class="link">开始学习</a>
-  </div>
-</div>
-
-</div>
-
-<div class="features-section">
-
-## 🌟 平台特色
-
-<div class="features-grid">
-  <div class="feature-card">
-    <div class="feature-icon">🎯</div>
-    <h3>系统化学习路径</h3>
-    <p>从入门到进阶，为每个技术领域提供清晰的学习路径</p>
-  </div>
-  <div class="feature-card">
-    <div class="feature-icon">💡</div>
-    <h3>实战导向</h3>
-    <p>理论结合实践，通过项目实战巩固所学知识</p>
-  </div>
-  <div class="feature-card">
-    <div class="feature-icon">🚀</div>
-    <h3>AI 时代前沿</h3>
-    <p>涵盖大模型、深度学习等AI领域最新技术</p>
-  </div>
-  <div class="feature-card">
-    <div class="feature-icon">🤝</div>
-    <h3>社区支持</h3>
-    <p>活跃的学习社区，互相交流，共同进步</p>
+    <a href="/AI时代" class="link">查看教程 →</a>
   </div>
 </div>
 
 </div>
 
 <style>
-/* 特性卡片 */
-.features-section {
-  margin: 80px auto;
-  max-width: 900px;
-  text-align: center;
-}
-
-.features-section h2 {
-  font-size: 1.75rem;
-  color: var(--text-primary);
-  margin-bottom: 40px;
-  font-weight: 700;
-}
-
-.features-grid {
+.stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
-.feature-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 20px;
+.stat-card {
+  background: linear-gradient(135deg, #2563eb 0%, #8b5cf6 100%);
+  border-radius: 16px;
   padding: 32px 24px;
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
+  color: white;
 }
 
-.feature-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: var(--gradient-primary);
-}
-
-.feature-card:hover {
-  transform: translateY(-8px);
-  box-shadow: var(--shadow-lg);
-  border-color: var(--primary);
-}
-
-.feature-icon {
+.stat-number {
   font-size: 2.5rem;
-  margin-bottom: 16px;
+  font-weight: 800;
+}
+
+.stat-label {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.quick-links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+}
+
+.quick-link-card {
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.quick-link-card:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-2px);
+}
+
+.quick-link-card .icon {
+  font-size: 28px;
   display: block;
+  margin-bottom: 8px;
 }
 
-.feature-card h3 {
-  font-size: 1.1rem;
-  color: var(--text-primary);
-  margin-bottom: 12px;
-  font-weight: 700;
+.quick-link-card .title {
+  font-weight: 600;
+  margin-bottom: 8px;
 }
 
-.feature-card p {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  line-height: 1.6;
+.quick-link-card .link {
+  font-size: 0.85rem;
+  color: var(--vp-c-brand-1);
 }
 
-/* 响应式 */
 @media (max-width: 768px) {
-  .features-grid {
+  .stats-grid {
     grid-template-columns: 1fr;
   }
   
-  .feature-card {
-    padding: 24px 20px;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .features-grid {
+  .quick-links-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
