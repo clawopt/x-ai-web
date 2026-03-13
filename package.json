@@ -1,28 +1,38 @@
 {
   "name": "ops-scripts",
-  "version": "1.0.0",
-  "description": "> 常用运维/开发软件一键安装脚本，支持 Linux (Ubuntu/Debian/CentOS)",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "现代化的运维/开发软件一键安装脚本集合，支持 Linux (Ubuntu/Debian/CentOS)",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs && pagefind --site docs/.vitepress/dist",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "format": "prettier --write .",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/clawopt/ops-scripts.git"
   },
-  "keywords": [],
+  "keywords": [
+    "ops",
+    "scripts",
+    "linux",
+    "installation",
+    "devops",
+    "automation"
+  ],
   "author": "",
-  "license": "ISC",
-  "type": "module",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/clawopt/ops-scripts/issues"
   },
   "homepage": "https://github.com/clawopt/ops-scripts#readme",
   "devDependencies": {
     "pagefind": "^1.4.0",
-    "vitepress": "^1.6.4"
+    "vitepress": "^1.6.4",
+    "prettier": "^3.0.0",
+    "eslint": "^8.0.0"
   }
 }
