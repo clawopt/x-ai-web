@@ -31,25 +31,18 @@ layout: home
 <section class="relative pt-20 pb-32 overflow-hidden hero-gradient">
   <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
     <div>
-      <div class="inline-flex items-center gap-2 px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-xs font-bold mb-6">
-        <span class="relative flex h-2 w-2">
-          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-          <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
-        </span>
-        最后更新: 2026年3月14日
-      </div>
       <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
-        让AI成为你的<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-500">智能生产力</span>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-500">X AI</span>，让AI成为你的智能生产力
       </h1>
       <p class="text-lg text-slate-500 mb-10 max-w-lg leading-relaxed">
         探索 AI 工具、赛道与案例，引领智能未来。我们提供最前沿的AI技术和应用，帮助你抓住AI时代的机遇。
       </p>
       <div class="flex flex-wrap gap-4">
+        <a class="px-8 py-4 bg-white text-slate-600 rounded-2xl font-bold border border-slate-200 flex items-center gap-2 hover:bg-slate-50 transition-colors" href="/tracks">
+          开启热门赛道
+        </a>
         <a class="px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-2xl shadow-blue-200 flex items-center gap-2 hover:scale-105 transition-transform" href="/tools">
           探索AI工具 <span class="iconify" data-icon="solar:arrow-right-up-bold"></span>
-        </a>
-        <a class="px-8 py-4 bg-white text-slate-900 rounded-2xl font-bold border border-slate-200 flex items-center gap-2 hover:bg-slate-50 transition-colors" href="/tracks">
-          了解热门赛道
         </a>
       </div>
       <div class="mt-12 flex items-center gap-6">
@@ -98,17 +91,6 @@ layout: home
             </div>
           </div>
         </div>
-        <div class="absolute -bottom-6 -left-6 glass p-6 rounded-2xl shadow-xl animate-bounce">
-          <div class="flex items-center gap-3">
-            <div class="w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center">
-              <span class="iconify text-2xl" data-icon="solar:wad-of-money-bold-duotone"></span>
-            </div>
-            <div>
-              <p class="text-xs text-slate-500 font-medium">AI 潜力</p>
-              <p class="text-xl font-bold text-slate-900">无限可能</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -145,8 +127,8 @@ layout: home
     </div>
     <a class="text-blue-600 font-bold flex items-center gap-1 hover:underline" href="/tracks">查看全部 <span class="iconify" data-icon="solar:arrow-right-linear"></span></a>
   </div>
-  <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-    <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover">
+  <div class="flex overflow-x-auto gap-6 pb-4">
+    <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
       <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-6">
         <span class="iconify text-3xl" data-icon="solar:play-circle-bold-duotone"></span>
       </div>
@@ -154,7 +136,7 @@ layout: home
       <p class="text-sm text-slate-500 mb-6 font-light">AI 生成短剧脚本与视频，快速制作高质量内容。</p>
       <div class="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block">潜力赛道</div>
     </div>
-    <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover">
+    <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
       <div class="w-14 h-14 bg-indigo-50 text-indigo-600 rounded-2xl flex items-center justify-center mb-6">
         <span class="iconify text-3xl" data-icon="solar:users-group-rounded-bold-duotone"></span>
       </div>
@@ -162,48 +144,29 @@ layout: home
       <p class="text-sm text-slate-500 mb-6 font-light">AI 驱动的虚拟数字人技术，为企业提供智能交互。</p>
       <div class="text-xs font-bold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full inline-block">月均收益 ¥8k+</div>
     </div>
-    <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover">
+    <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
       <div class="w-14 h-14 bg-purple-50 text-purple-600 rounded-2xl flex items-center justify-center mb-6">
-        <span class="iconify text-3xl" data-icon="solar:book-open-bold-duotone"></span>
+        <span class="iconify text-3xl" data-icon="solar:book-open-bold"></span>
       </div>
       <h3 class="font-bold text-lg mb-2">漫画</h3>
       <p class="text-sm text-slate-500 mb-6 font-light">AI 创作漫画内容，快速生成故事和图像。</p>
       <div class="text-xs font-bold text-purple-600 bg-purple-50 px-3 py-1 rounded-full inline-block">创意领域</div>
     </div>
-    <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover">
+    <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
       <div class="w-14 h-14 bg-pink-50 text-pink-600 rounded-2xl flex items-center justify-center mb-6">
-        <span class="iconify text-3xl" data-icon="solar:film-reel-bold-duotone"></span>
+        <span class="iconify text-3xl" data-icon="solar:film-reel-bold"></span>
       </div>
       <h3 class="font-bold text-lg mb-2">视频剪辑</h3>
       <p class="text-sm text-slate-500 mb-6 font-light">AI 辅助视频编辑与特效，提升制作效率。</p>
       <div class="text-xs font-bold text-pink-600 bg-pink-50 px-3 py-1 rounded-full inline-block">高效工具</div>
     </div>
-    <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover">
-      <div class="w-14 h-14 bg-yellow-50 text-yellow-600 rounded-2xl flex items-center justify-center mb-6">
-        <span class="iconify text-3xl" data-icon="solar:palette-bold-duotone"></span>
-      </div>
-      <h3 class="font-bold text-lg mb-2">设计创作</h3>
-      <p class="text-sm text-slate-500 mb-6 font-light">AI 生成设计与创意内容，激发灵感。</p>
-      <div class="text-xs font-bold text-yellow-600 bg-yellow-50 px-3 py-1 rounded-full inline-block">创意工具</div>
-    </div>
-    <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover">
+    <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
       <div class="w-14 h-14 bg-green-50 text-green-600 rounded-2xl flex items-center justify-center mb-6">
         <span class="iconify text-3xl" data-icon="solar:code-bold-duotone"></span>
       </div>
       <h3 class="font-bold text-lg mb-2">编程</h3>
       <p class="text-sm text-slate-500 mb-6 font-light">AI 辅助编程与代码生成，提升开发效率。</p>
       <div class="text-xs font-bold text-green-600 bg-green-50 px-3 py-1 rounded-full inline-block">开发工具</div>
-    </div>
-    <div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-3xl border border-blue-100 card-hover md:col-span-2">
-      <div class="flex items-center justify-between">
-        <div>
-          <h3 class="font-bold text-lg mb-2">查看更多赛道</h3>
-          <p class="text-sm text-slate-500 font-light">探索其他 AI 应用领域和商业化机会。</p>
-        </div>
-        <div class="w-14 h-14 bg-blue-600 text-white rounded-2xl flex items-center justify-center">
-          <span class="iconify text-3xl" data-icon="solar:arrow-right-bold-duotone"></span>
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -217,8 +180,8 @@ layout: home
       </div>
       <a class="text-blue-600 font-bold flex items-center gap-1 hover:underline" href="/tools">查看全部 <span class="iconify" data-icon="solar:arrow-right-linear"></span></a>
     </div>
-    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover">
+    <div class="flex overflow-x-auto gap-6 pb-4">
+      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
         <div class="w-16 h-16 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-blue-200">
           <span class="text-white font-bold text-lg">ClawGPT</span>
         </div>
@@ -226,7 +189,7 @@ layout: home
         <p class="text-sm text-slate-500 mb-6 font-light">智能对话助手，提供精准回答和创意内容。</p>
         <div class="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block">AI 助手</div>
       </div>
-      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover">
+      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
         <div class="w-16 h-16 bg-gradient-to-br from-green-600 to-teal-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-green-200">
           <span class="text-white font-bold text-lg">Seedance</span>
         </div>
@@ -234,7 +197,7 @@ layout: home
         <p class="text-sm text-slate-500 mb-6 font-light">AI 视频生成工具，快速创建高质量视频内容。</p>
         <div class="text-xs font-bold text-green-600 bg-green-50 px-3 py-1 rounded-full inline-block">视频生成</div>
       </div>
-      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover">
+      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
         <div class="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-purple-200">
           <span class="text-white font-bold text-lg">Sora</span>
         </div>
@@ -242,7 +205,7 @@ layout: home
         <p class="text-sm text-slate-500 mb-6 font-light">AI 视频生成工具，支持长视频创作。</p>
         <div class="text-xs font-bold text-purple-600 bg-purple-50 px-3 py-1 rounded-full inline-block">视频生成</div>
       </div>
-      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover">
+      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
         <div class="w-16 h-16 bg-gradient-to-br from-orange-600 to-red-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-orange-200">
           <span class="text-white font-bold text-lg">Midjourney</span>
         </div>
@@ -250,7 +213,7 @@ layout: home
         <p class="text-sm text-slate-500 mb-6 font-light">AI 图像生成工具，创造惊艳视觉效果。</p>
         <div class="text-xs font-bold text-orange-600 bg-orange-50 px-3 py-1 rounded-full inline-block">图像生成</div>
       </div>
-      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover">
+      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
         <div class="w-16 h-16 bg-gradient-to-br from-yellow-600 to-amber-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-yellow-200">
           <span class="text-white font-bold text-lg">Suno</span>
         </div>
@@ -258,24 +221,13 @@ layout: home
         <p class="text-sm text-slate-500 mb-6 font-light">AI 音乐生成工具，创作独特音乐作品。</p>
         <div class="text-xs font-bold text-yellow-600 bg-yellow-50 px-3 py-1 rounded-full inline-block">音乐生成</div>
       </div>
-      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover">
+      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
         <div class="w-16 h-16 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-blue-200">
           <span class="text-white font-bold text-lg">ChatGPT</span>
         </div>
         <h3 class="font-bold text-lg mb-2">ChatGPT</h3>
         <p class="text-sm text-slate-500 mb-6 font-light">智能对话助手，提供全面的AI交互体验。</p>
         <div class="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block">AI 助手</div>
-      </div>
-      <div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-3xl border border-blue-100 card-hover md:col-span-2">
-        <div class="flex items-center justify-between">
-          <div>
-            <h3 class="font-bold text-lg mb-2">查看更多工具</h3>
-            <p class="text-sm text-slate-500 font-light">探索其他 AI 工具和应用场景。</p>
-          </div>
-          <div class="w-14 h-14 bg-blue-600 text-white rounded-2xl flex items-center justify-center">
-            <span class="iconify text-3xl" data-icon="solar:arrow-right-bold-duotone"></span>
-          </div>
-        </div>
       </div>
     </div>
   </div>
