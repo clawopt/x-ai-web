@@ -35,6 +35,16 @@ layout: home
   .flex.overflow-x-auto::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Edge */
   }
+
+  /* 确保链接没有下划线 */
+  a {
+    text-decoration: none !important;
+  }
+
+  /* 确保按钮没有下划线 */
+  a:hover {
+    text-decoration: none !important;
+  }
 </style>
 
 <section class="relative pt-20 pb-32 overflow-hidden hero-gradient">
