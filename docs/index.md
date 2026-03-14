@@ -121,32 +121,6 @@ layout: home
 </section>
 
 
-
-<section class="py-12 bg-slate-900 text-white">
-  <div class="max-w-7xl mx-auto px-6">
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-      <div>
-        <div class="text-3xl font-bold mb-1">50+</div>
-        <div class="text-slate-400 text-sm">AI 工具</div>
-      </div>
-      <div>
-        <div class="text-3xl font-bold mb-1">7个</div>
-        <div class="text-slate-400 text-sm">热门赛道</div>
-      </div>
-      <div>
-        <div class="text-3xl font-bold mb-1">20+</div>
-        <div class="text-slate-400 text-sm">案例解析</div>
-      </div>
-      <div>
-        <div class="text-3xl font-bold mb-1">10k+</div>
-        <div class="text-slate-400 text-sm">用户数量</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
 <section class="py-16 max-w-7xl mx-auto px-6">
   <div class="flex justify-between items-end mb-10">
     <div class="max-w-xl">
