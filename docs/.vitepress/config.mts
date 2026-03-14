@@ -9,6 +9,9 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/ops-scripts/favicon.ico' }],
     ['meta', { name: 'keywords', content: '计算机教程,编程学习,Java,C++,Git,AI,机器学习,深度学习,数据结构,算法' }],
     ['meta', { name: 'author', content: 'ByteTech' }],
+    ['script', { src: 'https://cdn.tailwindcss.com' }],
+    ['script', { src: 'https://code.iconify.design/3/3.1.1/iconify.min.js' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap' }],
   ],
   themeConfig: {
     logo: '🚀',
