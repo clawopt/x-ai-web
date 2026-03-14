@@ -583,3 +583,48 @@ body {
 .VPNavBarExtra {
   display: none !important;
 }
+
+/* 数字人教程页面样式 */
+.digital-human-tutorial {
+  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.digital-human-tutorial .card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.digital-human-tutorial .card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.1);
+}
+
+.digital-human-tutorial .gradient-bg {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.digital-human-tutorial .gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.digital-human-tutorial .step-number {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.digital-human-tutorial .tool-icon {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.digital-human-tutorial .comparison-card {
+  border-left: 4px solid #667eea;
+}
+
+.dark .digital-human-tutorial .comparison-card {
+  border-left-color: #818cf8;
+}
+
+.dark .digital-human-tutorial .card-hover:hover {
+  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.3);
+}
