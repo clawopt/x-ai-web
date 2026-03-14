@@ -175,7 +175,7 @@ layout: home
 
 
 
-<section class="py-16">
+<section class="py-8">
   <div class="max-w-7xl mx-auto px-6">
     <div class="flex justify-between items-end mb-10">
       <div class="max-w-xl">
@@ -239,7 +239,7 @@ layout: home
 
 
 
-<section class="py-16 max-w-7xl mx-auto px-6">
+<section class="py-8 max-w-7xl mx-auto px-6">
   <div class="flex justify-between items-end mb-10">
     <div class="max-w-xl">
       <h2 class="text-3xl font-bold mb-4 flex items-center gap-2"><span class="iconify text-2xl" data-icon="solar:chart-square-bold"></span> 案例解析</h2>
