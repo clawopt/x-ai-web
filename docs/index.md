@@ -173,14 +173,14 @@ layout: home
   </div>
   <div class="scroll-container">
     <div class="flex overflow-x-auto gap-6 pb-4 scroll-content" id="tracks-scroll">
-      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
+      <a href="/x-ai-web/drama.html" class="block bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px] no-underline">
         <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-6">
           <span class="iconify text-3xl" data-icon="solar:play-circle-bold-duotone"></span>
         </div>
-        <h3 class="font-bold text-lg mb-2">短剧</h3>
+        <h3 class="font-bold text-lg mb-2 text-slate-900">短剧</h3>
         <p class="text-sm text-slate-500 mb-6 font-light">AI 生成短剧脚本与视频，快速制作高质量内容。</p>
         <div class="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block">潜力赛道</div>
-      </div>
+      </a>
       <a href="/x-ai-web/digital-human.html" class="block bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px] no-underline">
         <div class="w-14 h-14 bg-indigo-50 text-indigo-600 rounded-2xl flex items-center justify-center mb-6">
           <span class="iconify text-3xl" data-icon="solar:users-group-rounded-bold-duotone"></span>
@@ -189,22 +189,38 @@ layout: home
         <p class="text-sm text-slate-500 mb-6 font-light">AI 驱动的虚拟数字人技术，为企业提供智能交互。</p>
         <div class="text-xs font-bold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full inline-block">解放生产力</div>
       </a>
-      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
+      <a href="/x-ai-web/comic.html" class="block bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px] no-underline">
         <div class="w-14 h-14 bg-purple-50 text-purple-600 rounded-2xl flex items-center justify-center mb-6">
           <span class="iconify text-3xl" data-icon="solar:gallery-bold-duotone"></span>
         </div>
-        <h3 class="font-bold text-lg mb-2">漫画</h3>
+        <h3 class="font-bold text-lg mb-2 text-slate-900">漫画</h3>
         <p class="text-sm text-slate-500 mb-6 font-light">AI 创作漫画内容，快速生成故事和图像。</p>
         <div class="text-xs font-bold text-purple-600 bg-purple-50 px-3 py-1 rounded-full inline-block">创意领域</div>
-      </div>
-      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
+      </a>
+      <a href="/x-ai-web/writing.html" class="block bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px] no-underline">
+        <div class="w-14 h-14 bg-amber-50 text-amber-600 rounded-2xl flex items-center justify-center mb-6">
+          <span class="iconify text-3xl" data-icon="solar:pen-new-square-bold-duotone"></span>
+        </div>
+        <h3 class="font-bold text-lg mb-2 text-slate-900">写作</h3>
+        <p class="text-sm text-slate-500 mb-6 font-light">AI 辅助写作与内容创作，提升创作效率。</p>
+        <div class="text-xs font-bold text-amber-600 bg-amber-50 px-3 py-1 rounded-full inline-block">内容创作</div>
+      </a>
+      <a href="/x-ai-web/music.html" class="block bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px] no-underline">
+        <div class="w-14 h-14 bg-rose-50 text-rose-600 rounded-2xl flex items-center justify-center mb-6">
+          <span class="iconify text-3xl" data-icon="solar:music-notes-bold-duotone"></span>
+        </div>
+        <h3 class="font-bold text-lg mb-2 text-slate-900">音乐</h3>
+        <p class="text-sm text-slate-500 mb-6 font-light">AI 音乐创作与生成，开启音乐创作新时代。</p>
+        <div class="text-xs font-bold text-rose-600 bg-rose-50 px-3 py-1 rounded-full inline-block">音频创作</div>
+      </a>
+      <a href="/x-ai-web/video.html" class="block bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px] no-underline">
         <div class="w-14 h-14 bg-pink-50 text-pink-600 rounded-2xl flex items-center justify-center mb-6">
           <span class="iconify text-3xl" data-icon="solar:clapperboard-bold-duotone"></span>
         </div>
-        <h3 class="font-bold text-lg mb-2">视频剪辑</h3>
+        <h3 class="font-bold text-lg mb-2 text-slate-900">视频剪辑</h3>
         <p class="text-sm text-slate-500 mb-6 font-light">AI 辅助视频编辑与特效，提升制作效率。</p>
         <div class="text-xs font-bold text-pink-600 bg-pink-50 px-3 py-1 rounded-full inline-block">高效工具</div>
-      </div>
+      </a>
       <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
         <div class="w-14 h-14 bg-green-50 text-green-600 rounded-2xl flex items-center justify-center mb-6">
           <span class="iconify text-3xl" data-icon="solar:code-bold-duotone"></span>
