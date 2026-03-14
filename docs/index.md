@@ -175,7 +175,7 @@ layout: home
 
 
 
-<section class="py-16 bg-slate-50">
+<section class="py-16">
   <div class="max-w-7xl mx-auto px-6">
     <div class="flex justify-between items-end mb-10">
       <div class="max-w-xl">
