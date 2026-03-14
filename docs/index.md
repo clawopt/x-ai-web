@@ -221,14 +221,14 @@ layout: home
         <p class="text-sm text-slate-500 mb-6 font-light">AI 辅助视频编辑与特效，提升制作效率。</p>
         <div class="text-xs font-bold text-pink-600 bg-pink-50 px-3 py-1 rounded-full inline-block">高效工具</div>
       </a>
-      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
+      <a href="/x-ai-web/programming.html" class="block bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px] no-underline">
         <div class="w-14 h-14 bg-green-50 text-green-600 rounded-2xl flex items-center justify-center mb-6">
           <span class="iconify text-3xl" data-icon="solar:code-bold-duotone"></span>
         </div>
-        <h3 class="font-bold text-lg mb-2">编程</h3>
+        <h3 class="font-bold text-lg mb-2 text-slate-900">编程</h3>
         <p class="text-sm text-slate-500 mb-6 font-light">AI 辅助编程与代码生成，提升开发效率。</p>
         <div class="text-xs font-bold text-green-600 bg-green-50 px-3 py-1 rounded-full inline-block">开发工具</div>
-      </div>
+      </a>
     </div>
     <div class="scroll-fade-right" id="tracks-fade"></div>
     <div class="scroll-arrow" id="tracks-arrow" onclick="document.getElementById('tracks-scroll').scrollBy({left: 300, behavior: 'smooth'})">
