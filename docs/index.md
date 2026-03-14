@@ -236,10 +236,10 @@ layout: home
       <div class="flex overflow-x-auto gap-6 pb-4 scroll-content" id="tools-scroll">
         <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
           <div class="w-16 h-16 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-blue-200">
-            <span class="iconify text-3xl text-white" data-icon="solar:chat-square-code-bold-duotone"></span>
+            <span class="iconify text-3xl text-white" data-icon="solar:ghost-bold-duotone"></span>
           </div>
           <h3 class="font-bold text-lg mb-2">OpenClaw</h3>
-          <p class="text-sm text-slate-500 mb-6 font-light">智能对话助手，提供精准回答和创意内容。</p>
+          <p class="text-sm text-slate-500 mb-6 font-light">个人AI助手，通过WhatsApp、Telegram等聊天应用管理邮件、日历等。</p>
           <div class="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block">AI 助手</div>
         </div>
         <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
@@ -260,7 +260,7 @@ layout: home
         </div>
         <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
           <div class="w-16 h-16 bg-gradient-to-br from-orange-600 to-red-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-orange-200">
-            <span class="iconify text-3xl text-white" data-icon="simple-icons:midjourney"></span>
+            <span class="iconify text-3xl text-white" data-icon="solar:pallete-2-bold-duotone"></span>
           </div>
           <h3 class="font-bold text-lg mb-2">Midjourney</h3>
           <p class="text-sm text-slate-500 mb-6 font-light">AI 图像生成工具，创造惊艳视觉效果。</p>
