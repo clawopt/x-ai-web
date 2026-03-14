@@ -181,7 +181,7 @@ layout: home
         <p class="text-sm text-slate-500 mb-6 font-light">AI 生成短剧脚本与视频，快速制作高质量内容。</p>
         <div class="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block">潜力赛道</div>
       </div>
-      <a href="/digital-human" class="block bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px] no-underline">
+      <a href="/x-ai-web/digital-human.html" class="block bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px] no-underline">
         <div class="w-14 h-14 bg-indigo-50 text-indigo-600 rounded-2xl flex items-center justify-center mb-6">
           <span class="iconify text-3xl" data-icon="solar:users-group-rounded-bold-duotone"></span>
         </div>
