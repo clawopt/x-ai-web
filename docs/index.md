@@ -181,14 +181,14 @@ layout: home
         <p class="text-sm text-slate-500 mb-6 font-light">AI 生成短剧脚本与视频，快速制作高质量内容。</p>
         <div class="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block">潜力赛道</div>
       </div>
-      <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
+      <a href="/digital-human" class="block bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px] no-underline">
         <div class="w-14 h-14 bg-indigo-50 text-indigo-600 rounded-2xl flex items-center justify-center mb-6">
           <span class="iconify text-3xl" data-icon="solar:users-group-rounded-bold-duotone"></span>
         </div>
-        <h3 class="font-bold text-lg mb-2">数字人</h3>
+        <h3 class="font-bold text-lg mb-2 text-slate-900">数字人</h3>
         <p class="text-sm text-slate-500 mb-6 font-light">AI 驱动的虚拟数字人技术，为企业提供智能交互。</p>
         <div class="text-xs font-bold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full inline-block">解放生产力</div>
-      </div>
+      </a>
       <div class="bg-white p-8 rounded-3xl border border-slate-100 card-hover min-w-[280px]">
         <div class="w-14 h-14 bg-purple-50 text-purple-600 rounded-2xl flex items-center justify-center mb-6">
           <span class="iconify text-3xl" data-icon="solar:gallery-bold-duotone"></span>
