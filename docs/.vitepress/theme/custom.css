@@ -665,6 +665,38 @@ body {
   max-width: 100% !important;
 }
 
+/* 扩展文档主体到右侧 */
+.VPDoc.has-aside .container,
+.VPDoc .container {
+  max-width: 100% !important;
+}
+
+.VPDoc.has-aside .content,
+.VPDoc .content {
+  padding-right: 20px !important;
+}
+
+/* 移除右侧 aside 区域占用的空间 */
+.VPDoc.has-aside .container {
+  display: flex !important;
+}
+
+.VPDoc.has-aside .aside {
+  display: none !important;
+}
+
+.VPDoc.has-aside .content {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 1 !important;
+}
+
+/* 确保文档内容占满可用空间 */
+.VPDoc .main {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
 /* 响应式调整 */
 @media (max-width: 960px) {
   .VPDoc {
