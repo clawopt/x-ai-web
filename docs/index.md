@@ -268,7 +268,7 @@ background-color: white;
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-<a href="/x-ai-web/drama-comic.html" class="tool-card card-hover no-underline p-6">
+<a href="/x-ai-web/drama-comic" class="tool-card card-hover no-underline p-6">
 <div class="flex items-center gap-4 mb-4">
 <div class="tool-icon bg-gradient-to-br from-rose-500 to-pink-600 text-white" style="width: 56px; height: 56px;">
 <span class="iconify text-3xl" data-icon="solar:play-circle-bold-duotone"></span>
@@ -288,7 +288,7 @@ background-color: white;
 </div>
 </a>
 
-<a href="/x-ai-web/digital-human.html" class="tool-card card-hover no-underline p-6">
+<a href="/x-ai-web/digital-human" class="tool-card card-hover no-underline p-6">
 <div class="flex items-center gap-4 mb-4">
 <div class="tool-icon bg-gradient-to-br from-indigo-500 to-purple-600 text-white" style="width: 56px; height: 56px;">
 <span class="iconify text-3xl" data-icon="solar:videocamera-record-bold-duotone"></span>
@@ -308,7 +308,7 @@ background-color: white;
 </div>
 </a>
 
-<a href="/x-ai-web/side-business.html" class="tool-card card-hover no-underline p-6">
+<a href="/x-ai-web/side-business" class="tool-card card-hover no-underline p-6">
 <div class="flex items-center gap-4 mb-4">
 <div class="tool-icon bg-gradient-to-br from-emerald-500 to-teal-600 text-white" style="width: 56px; height: 56px;">
 <span class="iconify text-3xl" data-icon="solar:wallet-money-bold-duotone"></span>

@@ -44,9 +44,9 @@ export default defineConfig({
       { 
         text: '商业落地', 
         items: [
-          { text: '漫剧短剧', link: '/drama-comic' },
-          { text: '直播带货', link: '/digital-human' },
-          { text: '副业变现', link: '/side-business' }
+          { text: '漫剧短剧', link: '/drama-comic/' },
+          { text: '直播带货', link: '/digital-human/' },
+          { text: '副业变现', link: '/side-business/' }
         ]
       },
       { text: '最新博客', link: '/blog' }
@@ -99,6 +99,54 @@ export default defineConfig({
                 { text: '高级项目', link: '/drama-comic/projects#高级项目' },
                 { text: '项目提交与反馈', link: '/drama-comic/projects#项目提交与反馈' }
               ]
+            }
+          ]
+        }
+      ],
+      '/digital-human/': [
+        {
+          text: '直播带货教程',
+          collapsed: false,
+          items: [
+            { 
+              text: '工具介绍', 
+              link: '/digital-human/',
+            },
+            { 
+              text: '学习教程', 
+              link: '/digital-human/tutorial',
+            },
+            { 
+              text: '视频教程', 
+              link: '/digital-human/videos',
+            },
+            { 
+              text: '实践项目', 
+              link: '/digital-human/projects',
+            }
+          ]
+        }
+      ],
+      '/side-business/': [
+        {
+          text: '副业变现教程',
+          collapsed: false,
+          items: [
+            { 
+              text: '工具介绍', 
+              link: '/side-business/',
+            },
+            { 
+              text: '学习教程', 
+              link: '/side-business/tutorial',
+            },
+            { 
+              text: '视频教程', 
+              link: '/side-business/videos',
+            },
+            { 
+              text: '实践项目', 
+              link: '/side-business/projects',
             }
           ]
         }

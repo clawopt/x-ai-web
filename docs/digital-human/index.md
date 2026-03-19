@@ -1,5 +1,5 @@
 ---
-layout: home
+title: 工具介绍
 ---
 
 <style>
@@ -567,7 +567,9 @@ text-decoration: none !important;
 </div>
 </div>
 </div>
+</section>
 
+<section data-pagefind-body class="py-8 max-w-6xl mx-auto px-6">
 <div class="max-w-6xl mx-auto">
 <div class="flex items-center gap-3 mb-8">
 <div class="w-1 h-8 gradient-bg rounded-full"></div>
@@ -786,8 +788,6 @@ text-decoration: none !important;
 </div>
 </div>
 </section>
-
-
 
 <section data-pagefind-body class="py-8 max-w-6xl mx-auto px-6">
 <div class="gradient-bg rounded-3xl p-8 text-white">
