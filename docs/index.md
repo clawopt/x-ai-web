@@ -62,6 +62,7 @@ align-items: center;
 justify-content: center;
 font-size: 24px;
 margin-bottom: 12px;
+background-color: white;
 }
 </style>
 
@@ -94,7 +95,7 @@ margin-bottom: 12px;
 <span class="iconify" data-icon="solar:user-bold"></span>
 </div>
 </div>
-<p class="text-sm text-slate-500 font-medium">10,000+ 用户已加入</p>
+<p class="text-sm text-slate-500 font-medium">10,000+ 用户已学习</p>
 </div>
 </div>
 <div class="relative">
@@ -116,7 +117,7 @@ margin-bottom: 12px;
 </div>
 <div class="bg-slate-700/50 rounded-xl p-4">
 <div class="text-slate-400 text-sm mb-1">热门赛道</div>
-<div class="text-white text-2xl font-bold">7个</div>
+<div class="text-white text-2xl font-bold">6个</div>
 </div>
 <div class="bg-slate-700/50 rounded-xl p-4">
 <div class="text-slate-400 text-sm mb-1">案例解析</div>
@@ -136,15 +137,14 @@ margin-bottom: 12px;
 <section id="video-image" class="py-6 max-w-7xl mx-auto px-6">
 <div class="flex items-center gap-3 mb-4">
 <h2 class="text-xl font-bold text-slate-900">视频图像</h2>
-<span class="text-sm text-slate-400">7款工具</span>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-<a href="https://www.capcut.cn/" target="_blank" class="tool-card card-hover no-underline">
-<div class="tool-icon bg-gradient-to-br from-pink-500 to-rose-600 text-white">
-<span class="iconify" data-icon="solar:scissors-cutting-bold-duotone"></span>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+<a href="https://ai-bot.cn/app/10296.html" target="_blank" class="tool-card card-hover no-underline">
+<div class="tool-icon text-white">
+<img src="./images/cc.png" alt="剪映AI" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">剪映AI</h3>
+<h3 class="font-bold text-lg mb-1 text-slate-900">剪映AI教程</h3>
 <p class="text-sm text-slate-500 mb-3">字节旗下，AI视频剪辑首选，智能字幕、特效、配音</p>
 <div class="flex items-center justify-between">
 <span class="text-xs font-bold text-pink-600 bg-pink-50 px-2 py-1 rounded-full">免费</span>
@@ -153,11 +153,11 @@ margin-bottom: 12px;
 </a>
 
 <a href="https://jimengai.com/" target="_blank" class="tool-card card-hover no-underline">
-<div class="tool-icon bg-gradient-to-br from-blue-500 to-cyan-600 text-white">
-<span class="iconify" data-icon="solar:star-four-points-bold-duotone"></span>
+<div class="tool-icon text-white">
+<img src="./images/jm.png" alt="即梦AI" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">Seedance 2.0</h3>
-<p class="text-sm text-slate-500 mb-3">即梦AI，国内顶尖AI绘画/视频生成，画质极佳</p>
+<h3 class="font-bold text-lg mb-1 text-slate-900">即梦AI教程</h3>
+<p class="text-sm text-slate-500 mb-3">即梦AI，Seedance2.0，国内顶尖AI绘画/视频生成，画质极佳</p>
 <div class="flex items-center justify-between">
 <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">精品首选</span>
 <span class="text-xs text-slate-400">中高价位</span>
@@ -165,10 +165,10 @@ margin-bottom: 12px;
 </a>
 
 <a href="https://www.midjourney.com/" target="_blank" class="tool-card card-hover no-underline">
-<div class="tool-icon bg-gradient-to-br from-purple-500 to-indigo-600 text-white">
-<span class="iconify" data-icon="solar:palette-bold-duotone"></span>
+<div class="tool-icon text-white">
+<img src="./images/md.png" alt="Midjourney" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">Midjourney</h3>
+<h3 class="font-bold text-lg mb-1 text-slate-900">Midjourney教程</h3>
 <p class="text-sm text-slate-500 mb-3">业界画质标杆，AI图像生成天花板，艺术创作首选</p>
 <div class="flex items-center justify-between">
 <span class="text-xs font-bold text-purple-600 bg-purple-50 px-2 py-1 rounded-full">画质顶尖</span>
@@ -177,10 +177,10 @@ margin-bottom: 12px;
 </a>
 
 <a href="https://stability.ai/" target="_blank" class="tool-card card-hover no-underline">
-<div class="tool-icon bg-gradient-to-br from-slate-600 to-slate-800 text-white">
-<span class="iconify" data-icon="solar:code-bold-duotone"></span>
+<div class="tool-icon text-white">
+<img src="./images/sd.png" alt="Stable Diffusion" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">Stable Diffusion</h3>
+<h3 class="font-bold text-lg mb-1 text-slate-900">StableDiffusion教程</h3>
 <p class="text-sm text-slate-500 mb-3">开源AI绘画基座，自由度最高，本地部署</p>
 <div class="flex items-center justify-between">
 <span class="text-xs font-bold text-slate-600 bg-slate-100 px-2 py-1 rounded-full">开源免费</span>
@@ -188,35 +188,11 @@ margin-bottom: 12px;
 </div>
 </a>
 
-<a href="https://www.canva.com/" target="_blank" class="tool-card card-hover no-underline">
-<div class="tool-icon bg-gradient-to-br from-cyan-500 to-teal-600 text-white">
-<span class="iconify" data-icon="solar:pallete-2-bold-duotone"></span>
-</div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">Canva AI</h3>
-<p class="text-sm text-slate-500 mb-3">零基础AI设计工具，海报、封面、PPT配图</p>
-<div class="flex items-center justify-between">
-<span class="text-xs font-bold text-cyan-600 bg-cyan-50 px-2 py-1 rounded-full">零门槛</span>
-<span class="text-xs text-slate-400">素材丰富</span>
-</div>
-</a>
-
-<a href="https://pika.art/" target="_blank" class="tool-card card-hover no-underline">
-<div class="tool-icon bg-gradient-to-br from-amber-500 to-orange-600 text-white">
-<span class="iconify" data-icon="solar:video-frame-play-bold-duotone"></span>
-</div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">Pika</h3>
-<p class="text-sm text-slate-500 mb-3">AI视频生成新星，文生视频、图生视频效果出色</p>
-<div class="flex items-center justify-between">
-<span class="text-xs font-bold text-amber-600 bg-amber-50 px-2 py-1 rounded-full">视频生成</span>
-<span class="text-xs text-slate-400">创意向</span>
-</div>
-</a>
-
 <a href="https://runwayml.com/" target="_blank" class="tool-card card-hover no-underline">
-<div class="tool-icon bg-gradient-to-br from-violet-500 to-purple-600 text-white">
-<span class="iconify" data-icon="solar:clapperboard-bold-duotone"></span>
+<div class="tool-icon text-white">
+<img src="./images/rw.png" alt="Runway" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">Runway</h3>
+<h3 class="font-bold text-lg mb-1 text-slate-900">Runway教程</h3>
 <p class="text-sm text-slate-500 mb-3">专业级AI视频工具，Gen-2视频生成，影视级效果</p>
 <div class="flex items-center justify-between">
 <span class="text-xs font-bold text-violet-600 bg-violet-50 px-2 py-1 rounded-full">专业级</span>
@@ -229,27 +205,26 @@ margin-bottom: 12px;
 <section id="efficiency-tools" class="py-6 max-w-7xl mx-auto px-6">
 <div class="flex items-center gap-3 mb-4">
 <h2 class="text-xl font-bold text-slate-900">高效工具</h2>
-<span class="text-sm text-slate-400">5款工具</span>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
 <a href="#" class="tool-card card-hover no-underline">
-<div class="tool-icon bg-gradient-to-br from-yellow-500 to-amber-600 text-white">
-<span class="iconify" data-icon="solar:document-text-bold-duotone"></span>
+<div class="tool-icon text-white">
+<img src="./images/ds.png" alt="DeepSeek" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">Prompt教程</h3>
-<p class="text-sm text-slate-500 mb-3">提示词工程入门到精通，掌握AI对话核心技巧</p>
+<h3 class="font-bold text-lg mb-1 text-slate-900">DeepSeek教程</h3>
+<p class="text-sm text-slate-500 mb-3">DeepSeek官方教程，提示词工程入门到精通</p>
 <div class="flex items-center justify-between">
-<span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded-full">必修课</span>
+<span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">必修课</span>
 <span class="text-xs text-slate-400">免费教程</span>
 </div>
 </a>
 
 <a href="https://github.com/OpenClaw" target="_blank" class="tool-card card-hover no-underline">
-<div class="tool-icon bg-gradient-to-br from-emerald-500 to-green-600 text-white">
-<span class="iconify" data-icon="solar:ghost-bold-duotone"></span>
+<div class="tool-icon text-white">
+<img src="./images/oc.svg" alt="OpenClaw" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">OpenClaw</h3>
+<h3 class="font-bold text-lg mb-1 text-slate-900">OpenClaw教程</h3>
 <p class="text-sm text-slate-500 mb-3">开源免费的个人AI助手，本地部署，隐私安全</p>
 <div class="flex items-center justify-between">
 <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full">开源免费</span>
@@ -258,10 +233,10 @@ margin-bottom: 12px;
 </a>
 
 <a href="https://www.trae.ai/" target="_blank" class="tool-card card-hover no-underline">
-<div class="tool-icon bg-gradient-to-br from-blue-500 to-indigo-600 text-white">
-<span class="iconify" data-icon="solar:code-square-bold-duotone"></span>
+<div class="tool-icon text-white">
+<img src="./images/trae.png" alt="Trae" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">Trae</h3>
+<h3 class="font-bold text-lg mb-1 text-slate-900">Trae教程</h3>
 <p class="text-sm text-slate-500 mb-3">AI原生IDE，智能代码补全与生成，开发效率翻倍</p>
 <div class="flex items-center justify-between">
 <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">AI IDE</span>
@@ -270,10 +245,10 @@ margin-bottom: 12px;
 </a>
 
 <a href="https://cursor.sh/" target="_blank" class="tool-card card-hover no-underline">
-<div class="tool-icon bg-gradient-to-br from-slate-700 to-slate-900 text-white">
-<span class="iconify" data-icon="solar:cursor-bold-duotone"></span>
+<div class="tool-icon text-white">
+<img src="./images/cursor.png" alt="Cursor" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">Cursor</h3>
+<h3 class="font-bold text-lg mb-1 text-slate-900">Cursor教程</h3>
 <p class="text-sm text-slate-500 mb-3">AI代码编辑器，GPT-4驱动，代码生成与重构神器</p>
 <div class="flex items-center justify-between">
 <span class="text-xs font-bold text-slate-600 bg-slate-100 px-2 py-1 rounded-full">编程神器</span>
@@ -282,10 +257,10 @@ margin-bottom: 12px;
 </a>
 
 <a href="https://claude.ai/" target="_blank" class="tool-card card-hover no-underline">
-<div class="tool-icon bg-gradient-to-br from-orange-500 to-amber-600 text-white">
-<span class="iconify" data-icon="solar:chat-square-code-bold-duotone"></span>
+<div class="tool-icon text-white">
+<img src="./images/code.png" alt="Claude Code" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">Claude Code</h3>
+<h3 class="font-bold text-lg mb-1 text-slate-900">ClaudeCode教程</h3>
 <p class="text-sm text-slate-500 mb-3">Anthropic官方编程助手，长上下文，代码理解力强</p>
 <div class="flex items-center justify-between">
 <span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-full">长上下文</span>
@@ -298,7 +273,6 @@ margin-bottom: 12px;
 <section id="business" class="py-6 max-w-7xl mx-auto px-6">
 <div class="flex items-center gap-3 mb-4">
 <h2 class="text-xl font-bold text-slate-900">商业落地</h2>
-<span class="text-sm text-slate-400">3大方向</span>
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -361,42 +335,5 @@ margin-bottom: 12px;
 <span class="text-xs font-bold text-green-600 bg-green-50 px-3 py-1 rounded-full">多平台</span>
 </div>
 </a>
-</div>
-</section>
-
-<section class="py-10 max-w-7xl mx-auto px-6">
-<div class="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-6 md:p-8 text-white">
-<div class="flex flex-col md:flex-row items-center gap-6">
-<div class="flex-1">
-<h2 class="text-2xl md:text-3xl font-bold mb-3">开始你的AI学习之旅</h2>
-<p class="opacity-90 mb-4">
-从工具入门到商业变现，一站式AI教程助你掌握未来技能
-</p>
-<div class="flex flex-wrap gap-3">
-<a href="#video-image" class="inline-flex items-center gap-2 bg-white text-blue-600 font-bold px-5 py-2.5 rounded-xl hover:bg-opacity-90 transition-all no-underline text-sm">
-<span class="iconify" data-icon="solar:play-bold-duotone"></span>
-开始学习
-</a>
-<a href="/x-ai-web/tools.html" class="inline-flex items-center gap-2 bg-white/20 text-white font-bold px-5 py-2.5 rounded-xl hover:bg-white/30 transition-all no-underline text-sm">
-<span class="iconify" data-icon="solar:widget-5-bold-duotone"></span>
-查看全部工具
-</a>
-</div>
-</div>
-<div class="grid grid-cols-3 gap-3 text-center">
-<div class="bg-white/10 backdrop-blur-sm rounded-xl p-3">
-<div class="text-2xl font-bold">50+</div>
-<div class="text-xs opacity-80">AI工具</div>
-</div>
-<div class="bg-white/10 backdrop-blur-sm rounded-xl p-3">
-<div class="text-2xl font-bold">20+</div>
-<div class="text-xs opacity-80">实战教程</div>
-</div>
-<div class="bg-white/10 backdrop-blur-sm rounded-xl p-3">
-<div class="text-2xl font-bold">10K+</div>
-<div class="text-xs opacity-80">学习用户</div>
-</div>
-</div>
-</div>
 </div>
 </section>
