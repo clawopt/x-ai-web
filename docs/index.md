@@ -112,20 +112,12 @@ background-color: white;
 </div>
 <div class="grid grid-cols-2 gap-4">
 <div class="bg-slate-700/50 rounded-xl p-4">
-<div class="text-slate-400 text-sm mb-1">工具总数</div>
-<div class="text-white text-2xl font-bold">50+</div>
+<div class="text-slate-400 text-sm mb-1">精选推荐</div>
+<div class="text-white text-2xl font-bold">10大高效工具</div>
 </div>
 <div class="bg-slate-700/50 rounded-xl p-4">
-<div class="text-slate-400 text-sm mb-1">热门赛道</div>
-<div class="text-white text-2xl font-bold">6个</div>
-</div>
-<div class="bg-slate-700/50 rounded-xl p-4">
-<div class="text-slate-400 text-sm mb-1">案例解析</div>
-<div class="text-white text-2xl font-bold">20+</div>
-</div>
-<div class="bg-slate-700/50 rounded-xl p-4">
-<div class="text-slate-400 text-sm mb-1">用户增长</div>
-<div class="text-green-400 text-2xl font-bold">+25%</div>
+<div class="text-slate-400 text-sm mb-1">快速变现</div>
+<div class="text-white text-2xl font-bold">3大赚钱方向</div>
 </div>
 </div>
 </div>
@@ -139,7 +131,7 @@ background-color: white;
 <h2 class="text-xl font-bold text-slate-900">视频图像</h2>
 </div>
 
-<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+<div class="grid grid-cols-1 lg:grid-cols-5 gap-4">
 <a href="https://ai-bot.cn/app/10296.html" target="_blank" class="tool-card card-hover no-underline">
 <div class="tool-icon text-white">
 <img src="./images/cc.png" alt="剪映AI" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
@@ -169,7 +161,7 @@ background-color: white;
 <img src="./images/md.png" alt="Midjourney" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
 <h3 class="font-bold text-lg mb-1 text-slate-900">Midjourney教程</h3>
-<p class="text-sm text-slate-500 mb-3">业界画质标杆，AI图像生成天花板，艺术创作首选</p>
+<p class="text-sm text-slate-500 mb-3">业界画质标杆，AI图像生成天花板，专业艺术创作首选</p>
 <div class="flex items-center justify-between">
 <span class="text-xs font-bold text-purple-600 bg-purple-50 px-2 py-1 rounded-full">画质顶尖</span>
 <span class="text-xs text-slate-400">订阅制</span>
@@ -180,8 +172,8 @@ background-color: white;
 <div class="tool-icon text-white">
 <img src="./images/sd.png" alt="Stable Diffusion" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">StableDiffusion教程</h3>
-<p class="text-sm text-slate-500 mb-3">开源AI绘画基座，自由度最高，本地部署</p>
+<h3 class="font-bold text-lg mb-1 text-slate-900">SD教程</h3>
+<p class="text-sm text-slate-500 mb-3">StableDiffusion教程，开源AI绘画基座，自由度最高，本地部署</p>
 <div class="flex items-center justify-between">
 <span class="text-xs font-bold text-slate-600 bg-slate-100 px-2 py-1 rounded-full">开源免费</span>
 <span class="text-xs text-slate-400">技术向</span>
@@ -193,7 +185,7 @@ background-color: white;
 <img src="./images/rw.png" alt="Runway" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
 <h3 class="font-bold text-lg mb-1 text-slate-900">Runway教程</h3>
-<p class="text-sm text-slate-500 mb-3">专业级AI视频工具，Gen-2视频生成，影视级效果</p>
+<p class="text-sm text-slate-500 mb-3">专业级AI视频工具，Gen-2视频生成，影视级效果，技术向</p>
 <div class="flex items-center justify-between">
 <span class="text-xs font-bold text-violet-600 bg-violet-50 px-2 py-1 rounded-full">专业级</span>
 <span class="text-xs text-slate-400">高价位</span>
@@ -207,7 +199,7 @@ background-color: white;
 <h2 class="text-xl font-bold text-slate-900">高效工具</h2>
 </div>
 
-<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+<div class="grid grid-cols-1 lg:grid-cols-5 gap-4">
 <a href="#" class="tool-card card-hover no-underline">
 <div class="tool-icon text-white">
 <img src="./images/ds.png" alt="DeepSeek" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
@@ -276,7 +268,7 @@ background-color: white;
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-<a href="/x-ai-web/drama.html" class="tool-card card-hover no-underline p-6">
+<a href="/x-ai-web/drama-comic.html" class="tool-card card-hover no-underline p-6">
 <div class="flex items-center gap-4 mb-4">
 <div class="tool-icon bg-gradient-to-br from-rose-500 to-pink-600 text-white" style="width: 56px; height: 56px;">
 <span class="iconify text-3xl" data-icon="solar:play-circle-bold-duotone"></span>
@@ -316,7 +308,7 @@ background-color: white;
 </div>
 </a>
 
-<a href="#" class="tool-card card-hover no-underline p-6">
+<a href="/x-ai-web/side-business.html" class="tool-card card-hover no-underline p-6">
 <div class="flex items-center gap-4 mb-4">
 <div class="tool-icon bg-gradient-to-br from-emerald-500 to-teal-600 text-white" style="width: 56px; height: 56px;">
 <span class="iconify text-3xl" data-icon="solar:wallet-money-bold-duotone"></span>

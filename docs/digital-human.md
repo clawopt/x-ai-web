@@ -75,7 +75,7 @@ text-decoration: none !important;
 
 <section class="py-8 max-w-6xl mx-auto px-6">
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-<a href="#intro" class="block bg-white p-6 rounded-2xl border border-slate-100 card-hover no-underline text-center">
+<a href="#intro" class="block bg-white p-6 rounded-2xl border border-slate-100 card-hover no-underline">
 <div class="flex items-center justify-center mb-4">
 <div class="w-12 h-12 tool-icon text-white rounded-xl flex items-center justify-center">
 <span class="iconify text-2xl" data-icon="mdi:book-open-page-variant"></span>
@@ -84,7 +84,7 @@ text-decoration: none !important;
 <h3 class="font-bold text-lg mb-2 text-slate-900">数字人介绍</h3>
 <p class="text-sm text-slate-500">了解什么是数字人，技术原理和应用场景</p>
 </a>
-<a href="#tools" class="block bg-white p-6 rounded-2xl border border-slate-100 card-hover no-underline text-center">
+<a href="#tools" class="block bg-white p-6 rounded-2xl border border-slate-100 card-hover no-underline">
 <div class="flex items-center justify-center mb-4">
 <div class="w-12 h-12 tool-icon text-white rounded-xl flex items-center justify-center">
 <span class="iconify text-2xl" data-icon="mdi:apps"></span>
@@ -93,7 +93,7 @@ text-decoration: none !important;
 <h3 class="font-bold text-lg mb-2 text-slate-900">主流工具</h3>
 <p class="text-sm text-slate-500">详细介绍国内外数字人平台</p>
 </a>
-<a href="#comparison" class="block bg-white p-6 rounded-2xl border border-slate-100 card-hover no-underline text-center">
+<a href="#comparison" class="block bg-white p-6 rounded-2xl border border-slate-100 card-hover no-underline">
 <div class="flex items-center justify-center mb-4">
 <div class="w-12 h-12 tool-icon text-white rounded-xl flex items-center justify-center">
 <span class="iconify text-2xl" data-icon="mdi:compare"></span>
