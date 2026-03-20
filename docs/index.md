@@ -132,7 +132,7 @@ background-color: white;
 </div>
 
 <div class="grid grid-cols-1 lg:grid-cols-5 gap-4">
-<a href="https://ai-bot.cn/app/10296.html" target="_blank" class="tool-card card-hover no-underline">
+<a href="/x-ai-web/jianying/" class="tool-card card-hover no-underline">
 <div class="tool-icon text-white">
 <img src="./images/cc.png" alt="剪映AI" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
@@ -144,7 +144,7 @@ background-color: white;
 </div>
 </a>
 
-<a href="https://jimengai.com/" target="_blank" class="tool-card card-hover no-underline">
+<a href="/x-ai-web/jimeng/" class="tool-card card-hover no-underline">
 <div class="tool-icon text-white">
 <img src="./images/jm.png" alt="即梦AI" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
@@ -156,7 +156,7 @@ background-color: white;
 </div>
 </a>
 
-<a href="https://www.midjourney.com/" target="_blank" class="tool-card card-hover no-underline">
+<a href="/x-ai-web/midjourney/" class="tool-card card-hover no-underline">
 <div class="tool-icon text-white">
 <img src="./images/md.png" alt="Midjourney" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
@@ -168,7 +168,7 @@ background-color: white;
 </div>
 </a>
 
-<a href="https://stability.ai/" target="_blank" class="tool-card card-hover no-underline">
+<a href="/x-ai-web/sd/" class="tool-card card-hover no-underline">
 <div class="tool-icon text-white">
 <img src="./images/sd.png" alt="Stable Diffusion" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
@@ -180,7 +180,7 @@ background-color: white;
 </div>
 </a>
 
-<a href="https://runwayml.com/" target="_blank" class="tool-card card-hover no-underline">
+<a href="/x-ai-web/runway/" class="tool-card card-hover no-underline">
 <div class="tool-icon text-white">
 <img src="./images/rw.png" alt="Runway" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
@@ -200,7 +200,7 @@ background-color: white;
 </div>
 
 <div class="grid grid-cols-1 lg:grid-cols-5 gap-4">
-<a href="#" class="tool-card card-hover no-underline">
+<a href="/x-ai-web/deepseek/" class="tool-card card-hover no-underline">
 <div class="tool-icon text-white">
 <img src="./images/ds.png" alt="DeepSeek" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
@@ -212,7 +212,7 @@ background-color: white;
 </div>
 </a>
 
-<a href="https://github.com/OpenClaw" target="_blank" class="tool-card card-hover no-underline">
+<a href="/x-ai-web/openclaw/" class="tool-card card-hover no-underline">
 <div class="tool-icon text-white">
 <img src="./images/oc.svg" alt="OpenClaw" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
@@ -224,7 +224,7 @@ background-color: white;
 </div>
 </a>
 
-<a href="https://www.trae.ai/" target="_blank" class="tool-card card-hover no-underline">
+<a href="/x-ai-web/trae/" class="tool-card card-hover no-underline">
 <div class="tool-icon text-white">
 <img src="./images/trae.png" alt="Trae" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
@@ -236,7 +236,7 @@ background-color: white;
 </div>
 </a>
 
-<a href="https://cursor.sh/" target="_blank" class="tool-card card-hover no-underline">
+<a href="/x-ai-web/cursor/" class="tool-card card-hover no-underline">
 <div class="tool-icon text-white">
 <img src="./images/cursor.png" alt="Cursor" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
@@ -248,7 +248,7 @@ background-color: white;
 </div>
 </a>
 
-<a href="https://claude.ai/" target="_blank" class="tool-card card-hover no-underline">
+<a href="/x-ai-web/claude/" class="tool-card card-hover no-underline">
 <div class="tool-icon text-white">
 <img src="./images/code.png" alt="Claude Code" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>

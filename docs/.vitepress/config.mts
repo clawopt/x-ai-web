@@ -24,21 +24,21 @@ export default defineConfig({
       { 
         text: '视频图像', 
         items: [
-          { text: '剪映AI教程', link: 'https://ai-bot.cn/app/10296.html' },
-          { text: '即梦AI教程', link: 'https://jimengai.com/' },
-          { text: 'Midjourney教程', link: 'https://www.midjourney.com/' },
-          { text: 'StableDiffusion教程', link: 'https://stability.ai/' },
-          { text: 'Runway教程', link: 'https://runwayml.com/' }
+          { text: '剪映AI教程', link: '/jianying/' },
+          { text: '即梦AI教程', link: '/jimeng/' },
+          { text: 'Midjourney教程', link: '/midjourney/' },
+          { text: 'StableDiffusion教程', link: '/sd/' },
+          { text: 'Runway教程', link: '/runway/' }
         ]
       },
       { 
         text: '高效工具', 
         items: [
-          { text: 'DeepSeek教程', link: 'https://www.deepseek.com/' },
-          { text: 'OpenClaw教程', link: 'https://github.com/OpenClaw' },
-          { text: 'Trae教程', link: 'https://www.trae.ai/' },
-          { text: 'Cursor教程', link: 'https://cursor.sh/' },
-          { text: 'ClaudeCode教程', link: 'https://claude.ai/' }
+          { text: 'DeepSeek教程', link: '/deepseek/' },
+          { text: 'OpenClaw教程', link: '/openclaw/' },
+          { text: 'Trae教程', link: '/trae/' },
+          { text: 'Cursor教程', link: '/cursor/' },
+          { text: 'ClaudeCode教程', link: '/claude/' }
         ]
       },
       { 
@@ -58,48 +58,135 @@ export default defineConfig({
     },
 
     sidebar: {
+      '/jianying/': [
+        {
+          text: '剪映AI教程',
+          collapsed: false,
+          items: [
+            { text: '工具介绍', link: '/jianying/' },
+            { text: '学习教程', link: '/jianying/tutorial' },
+            { text: '视频教程', link: '/jianying/videos' },
+            { text: '实战项目', link: '/jianying/projects' }
+          ]
+        }
+      ],
+      '/jimeng/': [
+        {
+          text: '即梦AI教程',
+          collapsed: false,
+          items: [
+            { text: '工具介绍', link: '/jimeng/' },
+            { text: '学习教程', link: '/jimeng/tutorial' },
+            { text: '视频教程', link: '/jimeng/videos' },
+            { text: '实战项目', link: '/jimeng/projects' }
+          ]
+        }
+      ],
+      '/midjourney/': [
+        {
+          text: 'Midjourney教程',
+          collapsed: false,
+          items: [
+            { text: '工具介绍', link: '/midjourney/' },
+            { text: '学习教程', link: '/midjourney/tutorial' },
+            { text: '视频教程', link: '/midjourney/videos' },
+            { text: '实战项目', link: '/midjourney/projects' }
+          ]
+        }
+      ],
+      '/sd/': [
+        {
+          text: 'Stable Diffusion教程',
+          collapsed: false,
+          items: [
+            { text: '工具介绍', link: '/sd/' },
+            { text: '学习教程', link: '/sd/tutorial' },
+            { text: '视频教程', link: '/sd/videos' },
+            { text: '实战项目', link: '/sd/projects' }
+          ]
+        }
+      ],
+      '/runway/': [
+        {
+          text: 'Runway教程',
+          collapsed: false,
+          items: [
+            { text: '工具介绍', link: '/runway/' },
+            { text: '学习教程', link: '/runway/tutorial' },
+            { text: '视频教程', link: '/runway/videos' },
+            { text: '实战项目', link: '/runway/projects' }
+          ]
+        }
+      ],
+      '/deepseek/': [
+        {
+          text: 'DeepSeek教程',
+          collapsed: false,
+          items: [
+            { text: '工具介绍', link: '/deepseek/' },
+            { text: '学习教程', link: '/deepseek/tutorial' },
+            { text: '视频教程', link: '/deepseek/videos' },
+            { text: '实战项目', link: '/deepseek/projects' }
+          ]
+        }
+      ],
+      '/openclaw/': [
+        {
+          text: 'OpenClaw教程',
+          collapsed: false,
+          items: [
+            { text: '工具介绍', link: '/openclaw/' },
+            { text: '学习教程', link: '/openclaw/tutorial' },
+            { text: '视频教程', link: '/openclaw/videos' },
+            { text: '实战项目', link: '/openclaw/projects' }
+          ]
+        }
+      ],
+      '/trae/': [
+        {
+          text: 'Trae教程',
+          collapsed: false,
+          items: [
+            { text: '工具介绍', link: '/trae/' },
+            { text: '学习教程', link: '/trae/tutorial' },
+            { text: '视频教程', link: '/trae/videos' },
+            { text: '实战项目', link: '/trae/projects' }
+          ]
+        }
+      ],
+      '/cursor/': [
+        {
+          text: 'Cursor教程',
+          collapsed: false,
+          items: [
+            { text: '工具介绍', link: '/cursor/' },
+            { text: '学习教程', link: '/cursor/tutorial' },
+            { text: '视频教程', link: '/cursor/videos' },
+            { text: '实战项目', link: '/cursor/projects' }
+          ]
+        }
+      ],
+      '/claude/': [
+        {
+          text: 'Claude Code教程',
+          collapsed: false,
+          items: [
+            { text: '工具介绍', link: '/claude/' },
+            { text: '学习教程', link: '/claude/tutorial' },
+            { text: '视频教程', link: '/claude/videos' },
+            { text: '实战项目', link: '/claude/projects' }
+          ]
+        }
+      ],
       '/drama-comic/': [
         {
           text: '短剧漫剧教程',
           collapsed: false,
           items: [
-            { 
-              text: '工具介绍', 
-              link: '/drama-comic/',
-            },
-            { 
-              text: '学习教程', 
-              link: '/drama-comic/tutorial',
-              collapsed: true,
-              items: [
-                { text: '基础入门', link: '/drama-comic/tutorial#基础入门' },
-                { text: '学习路径', link: '/drama-comic/tutorial#学习路径' },
-                { text: '推荐学习资源', link: '/drama-comic/tutorial#推荐学习资源' },
-                { text: '常见问题', link: '/drama-comic/tutorial#常见问题' }
-              ]
-            },
-            { 
-              text: '视频教程', 
-              link: '/drama-comic/videos',
-              collapsed: true,
-              items: [
-                { text: '入门视频', link: '/drama-comic/videos#入门视频' },
-                { text: '进阶视频', link: '/drama-comic/videos#进阶视频' },
-                { text: '实战案例', link: '/drama-comic/videos#实战案例' },
-                { text: '工具专项教程', link: '/drama-comic/videos#工具专项教程' }
-              ]
-            },
-            { 
-              text: '实践项目', 
-              link: '/drama-comic/projects',
-              collapsed: true,
-              items: [
-                { text: '入门项目', link: '/drama-comic/projects#入门项目' },
-                { text: '进阶项目', link: '/drama-comic/projects#进阶项目' },
-                { text: '高级项目', link: '/drama-comic/projects#高级项目' },
-                { text: '项目提交与反馈', link: '/drama-comic/projects#项目提交与反馈' }
-              ]
-            }
+            { text: '工具介绍', link: '/drama-comic/' },
+            { text: '学习教程', link: '/drama-comic/tutorial' },
+            { text: '视频教程', link: '/drama-comic/videos' },
+            { text: '实践项目', link: '/drama-comic/projects' }
           ]
         }
       ],
@@ -108,22 +195,10 @@ export default defineConfig({
           text: '直播带货教程',
           collapsed: false,
           items: [
-            { 
-              text: '工具介绍', 
-              link: '/digital-human/',
-            },
-            { 
-              text: '学习教程', 
-              link: '/digital-human/tutorial',
-            },
-            { 
-              text: '视频教程', 
-              link: '/digital-human/videos',
-            },
-            { 
-              text: '实践项目', 
-              link: '/digital-human/projects',
-            }
+            { text: '工具介绍', link: '/digital-human/' },
+            { text: '学习教程', link: '/digital-human/tutorial' },
+            { text: '视频教程', link: '/digital-human/videos' },
+            { text: '实践项目', link: '/digital-human/projects' }
           ]
         }
       ],
@@ -132,22 +207,10 @@ export default defineConfig({
           text: '副业变现教程',
           collapsed: false,
           items: [
-            { 
-              text: '工具介绍', 
-              link: '/side-business/',
-            },
-            { 
-              text: '学习教程', 
-              link: '/side-business/tutorial',
-            },
-            { 
-              text: '视频教程', 
-              link: '/side-business/videos',
-            },
-            { 
-              text: '实践项目', 
-              link: '/side-business/projects',
-            }
+            { text: '工具介绍', link: '/side-business/' },
+            { text: '学习教程', link: '/side-business/tutorial' },
+            { text: '视频教程', link: '/side-business/videos' },
+            { text: '实践项目', link: '/side-business/projects' }
           ]
         }
       ]
