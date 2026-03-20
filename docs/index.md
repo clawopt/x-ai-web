@@ -132,7 +132,7 @@ background-color: white;
 </div>
 
 <div class="grid grid-cols-1 lg:grid-cols-5 gap-4">
-<a href="/x-ai-web/jianying/" class="tool-card card-hover no-underline">
+<a href="/x-ai-web/capcut/" class="tool-card card-hover no-underline">
 <div class="tool-icon text-white">
 <img src="./images/cc.png" alt="剪映AI" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
@@ -144,7 +144,7 @@ background-color: white;
 </div>
 </a>
 
-<a href="/x-ai-web/jimeng/" class="tool-card card-hover no-underline">
+<a href="/x-ai-web/dreamina/" class="tool-card card-hover no-underline">
 <div class="tool-icon text-white">
 <img src="./images/jm.png" alt="即梦AI" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>

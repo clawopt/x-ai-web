@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/x-ai-web/',
   appearance: false,
   head: [
-    ['link', { rel: 'icon', href: '/x-ai-web/favicon.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'icon', href: '/x-ai-web/images/favicon.svg', type: 'image/svg+xml' }],
     ['meta', { name: 'keywords', content: 'AI教程,AI工具,AI赛道,AI案例,智能生产力' }],
     ['meta', { name: 'author', content: 'x-AI教程' }],
     ['script', { src: 'https://cdn.tailwindcss.com' }],
@@ -24,8 +24,8 @@ export default defineConfig({
       { 
         text: '视频图像', 
         items: [
-          { text: '剪映AI教程', link: '/jianying/' },
-          { text: '即梦AI教程', link: '/jimeng/' },
+          { text: '剪映AI教程', link: '/capcut/' },
+          { text: '即梦AI教程', link: '/dreamina/' },
           { text: 'Midjourney教程', link: '/midjourney/' },
           { text: 'StableDiffusion教程', link: '/sd/' },
           { text: 'Runway教程', link: '/runway/' }
@@ -58,27 +58,27 @@ export default defineConfig({
     },
 
     sidebar: {
-      '/jianying/': [
+      '/capcut/': [
         {
           text: '剪映AI教程',
           collapsed: false,
           items: [
-            { text: '工具介绍', link: '/jianying/' },
-            { text: '学习教程', link: '/jianying/tutorial' },
-            { text: '视频教程', link: '/jianying/videos' },
-            { text: '实战项目', link: '/jianying/projects' }
+            { text: '工具介绍', link: '/capcut/' },
+            { text: '学习教程', link: '/capcut/tutorial' },
+            { text: '视频教程', link: '/capcut/videos' },
+            { text: '实战项目', link: '/capcut/projects' }
           ]
         }
       ],
-      '/jimeng/': [
+      '/dreamina/': [
         {
           text: '即梦AI教程',
           collapsed: false,
           items: [
-            { text: '工具介绍', link: '/jimeng/' },
-            { text: '学习教程', link: '/jimeng/tutorial' },
-            { text: '视频教程', link: '/jimeng/videos' },
-            { text: '实战项目', link: '/jimeng/projects' }
+            { text: '工具介绍', link: '/dreamina/' },
+            { text: '学习教程', link: '/dreamina/tutorial' },
+            { text: '视频教程', link: '/dreamina/videos' },
+            { text: '实战项目', link: '/dreamina/projects' }
           ]
         }
       ],
