@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "AI编程技术栈",
+  title: "x-AI，迈向未来",
   description: "从Python到CUDA，从深度学习到大模型部署",
   lang: 'zh-CN',
   base: '/x-ai-web/',
@@ -9,20 +9,19 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: './images/favicon.svg', type: 'image/svg+xml' }],
     ['meta', { name: 'keywords', content: 'AI编程,深度学习,CUDA,PyTorch,大模型,LLM,机器学习' }],
-    ['meta', { name: 'author', content: 'AI编程技术栈' }],
+    ['meta', { name: 'author', content: 'x-AI，迈向未来' }],
     ['script', { src: 'https://cdn.tailwindcss.com' }],
     ['script', { src: 'https://code.iconify.design/3/3.1.1/iconify.min.js' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap' }],
   ],
   themeConfig: {
     logo: 'AI',
-    siteTitle: 'AI编程技术栈',
+    siteTitle: 'x-AI，迈向未来',
     search: { provider: 'local' },
 
     nav: [
-      { text: '首页', link: '/' },
       {
-        text: 'AI编程',
+        text: 'AI 编程',
         items: [
           { text: 'OpenClaw', link: '/openclaw/' },
           { text: 'Claude Code', link: '/claude-code/' },
@@ -49,7 +48,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'AI数据库',
+        text: 'AI 数据库',
         items: [
           { text: 'PG Vector', link: '/pgvector/' },
           { text: 'DuckDB', link: '/duckdb/' },
@@ -59,13 +58,63 @@ export default defineConfig({
           { text: 'Chroma', link: '/chroma/' }
         ]
       },
+      {
+        text: 'CUDA',
+        items: [
+          { text: 'CUDA C++', link: '/cuda/' },
+          { text: 'CUDA CMake', link: '/cuda-cmake/' },
+          { text: 'CUDA GDB', link: '/cuda-gdb/' }
+        ]
+      },
+      {
+        text: '机器学习',
+        items: [
+          { text: 'Scikit-learn', link: '/sklearn/' },
+          { text: 'XGBoost', link: '/xgboost/' },
+          { text: 'LightGBM', link: '/lightgbm/' }
+        ]
+      },
+      {
+        text: '深度学习',
+        items: [
+          { text: 'PyTorch', link: '/pytorch/' },
+          { text: 'TensorFlow', link: '/tensorflow/' },
+          { text: 'PyTorch Lightning', link: '/pytorch-lightning/' }
+        ]
+      },
+      {
+        text: 'LLM 训练',
+        items: [
+          { text: 'Transformers', link: '/transformers/' },
+          { text: 'PEFT', link: '/peft/' },
+          { text: 'DeepSpeed', link: '/deepspeed/' },
+          { text: 'Unsloth', link: '/unsloth/' }
+        ]
+      },
+      {
+        text: 'LLM 推理',
+        items: [
+          { text: 'vLLM', link: '/vllm/' },
+          { text: 'TensorRT-LLM', link: '/tensorrt-llm/' },
+          { text: 'Ollama', link: '/ollama/' },
+          { text: 'TensorRT', link: '/tensorrt/' }
+        ]
+      },
+      {
+        text: 'LLM 应用',
+        items: [
+          { text: 'LangChain', link: '/langchain/' },
+          { text: 'LlamaIndex', link: '/llamaindex/' },
+          { text: 'LangGraph', link: '/langgraph/' }
+        ]
+      },
       { text: '关于', link: '/about/' },
       { text: '博客', link: '/blog/' }
     ],
 
     footer: {
       message: '从基础到前沿，掌握AI编程全栈技术',
-      copyright: '© 2026 AI编程技术栈. 保留所有权利.'
+      copyright: '© 2026 x-AI，迈向未来. 保留所有权利.'
     },
 
     sidebar: {
