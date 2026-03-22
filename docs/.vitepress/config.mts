@@ -120,15 +120,42 @@ export default defineConfig({
     sidebar: {
       '/python/': [
         {
-          text: 'Python',
-          collapsed: false,
+          text: 'Python AI 教程',
           items: [
-            { text: '概述', link: '/python/' },
-            { text: '基础语法', link: '/python/syntax' },
-            { text: '控制流与函数', link: '/python/control-flow' },
-            { text: '数据结构', link: '/python/data-structures' },
-            { text: '面向对象', link: '/python/oop' },
-            { text: '标准库', link: '/python/stdlib' }
+            { text: '首页', link: '/python/' }
+          ]
+        },
+        {
+          text: '第0章：课程介绍',
+          collapsed: true,
+          items: [
+            { text: '为什么选择Python', link: '/python/00-why-python' },
+            { text: '课程特色与学习方法', link: '/python/01-course-features' },
+            { text: '环境准备', link: '/python/02-environment-setup' }
+          ]
+        },
+        {
+          text: '第1章：Python基础语法',
+          collapsed: true,
+          items: [
+            { text: '数字类型', link: '/python/10-number-types' },
+            { text: '字符串', link: '/python/11-string' },
+            { text: '布尔值与None', link: '/python/12-boolean-none' },
+            { text: '运算符', link: '/python/13-operators' }
+          ]
+        },
+        {
+          text: '第2章：控制流与函数',
+          collapsed: true,
+          items: [
+            { text: '敬请期待...', link: '/python/' }
+          ]
+        },
+        {
+          text: '第3章：数据结构',
+          collapsed: true,
+          items: [
+            { text: '敬请期待...', link: '/python/' }
           ]
         }
       ],

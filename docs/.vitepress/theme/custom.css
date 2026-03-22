@@ -618,6 +618,19 @@ body {
   padding: 4px 0 !important;
 }
 
+.VPSidebarItem.is-group > .item {
+  border-bottom: none !important;
+}
+
+.VPSidebarItem.level-0 > .item {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.VPSidebarItem.level-0.is-group > .items {
+  border-top: none !important;
+}
+
 /* 屏幕宽度变化时左右列表自动排版成一列 */
 @media (max-width: 1200px) {
   .category-layout {
