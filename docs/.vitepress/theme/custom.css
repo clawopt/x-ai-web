@@ -449,6 +449,37 @@ body {
   max-width: 100% !important;
 }
 
+/* 首页布局优化 - 去除空白 */
+.VPHome {
+  padding-top: 0 !important;
+}
+
+.VPHome .VPContent {
+  padding: 0 !important;
+}
+
+.VPHome .VPDoc {
+  padding: 0 !important;
+}
+
+.VPHome .container {
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+}
+
+.VPHome .main {
+  padding: 0 !important;
+}
+
+.VPHome .content {
+  padding: 0 !important;
+}
+
+.VPHome .vp-doc {
+  padding: 0 !important;
+}
+
 /* 响应式调整 */
 @media (max-width: 960px) {
   .VPDoc {

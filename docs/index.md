@@ -3,329 +3,500 @@ layout: home
 ---
 
 <style>
-body {
-font-family: 'Noto Sans SC', sans-serif;
-background-color: #F8FAFC;
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.glass {
-background: rgba(255, 255, 255, 0.7);
-backdrop-filter: blur(12px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+.category-section {
+  margin-bottom: 8px;
 }
 
-.hero-gradient {
-background: radial-gradient(circle at top right, #EEF2FF 0%, #F8FAFC 50%);
+.category-header {
+  margin-bottom: 5px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #e2e8f0;
 }
 
-.card-hover {
-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+.category-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
 }
 
-.card-hover:hover {
-transform: translateY(-3px);
-box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.1);
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
 }
 
-a {
-text-decoration: none !important;
+.tech-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: block;
 }
 
-a:hover {
-text-decoration: none !important;
+.tech-card:hover {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-color: #06b6d4;
 }
 
-.explore-btn {
-color: white !important;
+.tech-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
 }
 
-.tool-card {
-background: white;
-border-radius: 16px;
-padding: 20px;
-border: 1px solid #E2E8F0;
-transition: all 0.3s ease;
+.tech-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  flex-shrink: 0;
 }
 
-.tool-card:hover {
-transform: translateY(-4px);
-box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.15);
-border-color: #CBD5E1;
+.tech-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1e293b;
 }
 
-.tool-icon {
-width: 48px;
-height: 48px;
-border-radius: 12px;
-display: flex;
-align-items: center;
-justify-content: center;
-font-size: 24px;
-margin-bottom: 12px;
-background-color: white;
+.tech-desc {
+  font-size: 0.75rem;
+  color: #64748b;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 </style>
 
-<section class="relative pt-10 pb-16 overflow-hidden hero-gradient">
-<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-<div>
-<h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
-<span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-500">x-AI</span>，让AI成为你的智能生产力
-</h1>
-<p class="text-lg text-slate-500 mb-10 max-w-lg leading-relaxed">
-探索 AI 工具、赛道与案例，引领智能未来。我们提供最前沿的AI技术和应用，帮助你抓住AI时代的机遇。
-</p>
-<div class="flex flex-wrap gap-4">
-<a class="px-8 py-4 bg-white text-slate-600 rounded-2xl font-bold border border-slate-200 flex items-center gap-2 hover:bg-slate-50 transition-colors no-underline" href="#video-image">
-立即学习
-</a>
-<a class="px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-2xl shadow-blue-200 flex items-center gap-2 hover:scale-105 transition-transform no-underline explore-btn" href="#business">
-火速变现 <span class="iconify" data-icon="solar:arrow-right-up-bold"></span>
-</a>
-</div>
-<div class="mt-12 flex items-center gap-6">
-<div class="flex -space-x-3">
-<div class="w-10 h-10 bg-blue-100 rounded-full border-2 border-white flex items-center justify-center text-blue-600">
-<span class="iconify" data-icon="solar:user-bold"></span>
-</div>
-<div class="w-10 h-10 bg-green-100 rounded-full border-2 border-white flex items-center justify-center text-green-600">
-<span class="iconify" data-icon="solar:user-bold"></span>
-</div>
-<div class="w-10 h-10 bg-purple-100 rounded-full border-2 border-white flex items-center justify-center text-purple-600">
-<span class="iconify" data-icon="solar:user-bold"></span>
-</div>
-</div>
-<p class="text-sm text-slate-500 font-medium">10,000+ 用户已学习</p>
-</div>
-</div>
-<div class="relative">
-<div class="absolute -top-10 -right-10 w-64 h-64 bg-blue-400 opacity-10 rounded-full blur-3xl"></div>
-<div class="relative glass rounded-[32px] p-4 shadow-2xl border border-white/50">
-<div class="bg-gradient-to-br from-slate-800 to-slate-900 rounded-[24px] p-6 shadow-inner">
-<div class="flex justify-between items-center mb-4">
-<h3 class="text-white font-bold">AI 工具仪表盘</h3>
-<div class="flex gap-2">
-<div class="w-3 h-3 bg-red-500 rounded-full"></div>
-<div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
-<div class="w-3 h-3 bg-green-500 rounded-full"></div>
-</div>
-</div>
-<div class="grid grid-cols-2 gap-4">
-<div class="bg-slate-700/50 rounded-xl p-4">
-<div class="text-slate-400 text-sm mb-1">精选推荐</div>
-<div class="text-white text-2xl font-bold">10大高效工具</div>
-</div>
-<div class="bg-slate-700/50 rounded-xl p-4">
-<div class="text-slate-400 text-sm mb-1">快速变现</div>
-<div class="text-white text-2xl font-bold">3大赚钱方向</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+<div class="home-container">
 
-<section id="video-image" class="py-6 max-w-7xl mx-auto px-6">
-<div class="flex items-center gap-3 mb-4">
-<h2 class="text-xl font-bold text-slate-900">视频图像</h2>
-</div>
+  <div class="category-section">
+    <div class="category-header">
+      <h2 class="category-title">编程语言基础层</h2>
+    </div>
+    <div class="tech-grid">
+      <a href="/x-ai-web/python/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">
+            <span style="color: white;">Py</span>
+          </div>
+          <span class="tech-name">Python</span>
+        </div>
+        <p class="tech-desc">AI生态核心语言，语法简洁，标准库丰富</p>
+      </a>
+      <a href="/x-ai-web/numpy/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #4f46e5, #3730a3);">
+            <span style="color: white;">Np</span>
+          </div>
+          <span class="tech-name">NumPy</span>
+        </div>
+        <p class="tech-desc">数值计算基石，ndarray数组，向量化运算</p>
+      </a>
+      <a href="/x-ai-web/pandas/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #0ea5e9, #0284c7);">
+            <span style="color: white;">Pd</span>
+          </div>
+          <span class="tech-name">Pandas</span>
+        </div>
+        <p class="tech-desc">表格数据处理，DataFrame操作</p>
+      </a>
+      <a href="/x-ai-web/matplotlib/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #8b5cf6, #6d28d9);">
+            <span style="color: white;">Mp</span>
+          </div>
+          <span class="tech-name">Matplotlib</span>
+        </div>
+        <p class="tech-desc">静态可视化基础，出版级图表</p>
+      </a>
+    </div>
+  </div>
 
-<div class="grid grid-cols-1 lg:grid-cols-5 gap-4">
-<a href="/x-ai-web/capcut/" class="tool-card card-hover no-underline">
-<div class="tool-icon text-white">
-<img src="./images/cc.png" alt="剪映AI" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
-</div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">剪映AI教程</h3>
-<p class="text-sm text-slate-500 mb-3">字节旗下，AI视频剪辑首选，智能字幕、特效、配音</p>
-<div class="flex items-center justify-between">
-<span class="text-xs font-bold text-pink-600 bg-pink-50 px-2 py-1 rounded-full">免费</span>
-<span class="text-xs text-slate-400">新手友好</span>
-</div>
-</a>
+  <div class="category-section">
+    <div class="category-header">
+      <h2 class="category-title">C++开发层</h2>
+    </div>
+    <div class="tech-grid">
+      <a href="/x-ai-web/cpp/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #00599c, #004482);">
+            <span style="color: white;">C++</span>
+          </div>
+          <span class="tech-name">C++基础</span>
+        </div>
+        <p class="tech-desc">语法基础，指针引用，面向对象</p>
+      </a>
+      <a href="/x-ai-web/modern-cpp/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #6366f1, #4f46e5);">
+            <span style="color: white;">C++17</span>
+          </div>
+          <span class="tech-name">现代C++</span>
+        </div>
+        <p class="tech-desc">智能指针，Lambda，移动语义</p>
+      </a>
+      <a href="/x-ai-web/cmake/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #06b6d4, #0891b2);">
+            <span style="color: white;">CM</span>
+          </div>
+          <span class="tech-name">CMake</span>
+        </div>
+        <p class="tech-desc">跨平台构建，target管理</p>
+      </a>
+      <a href="/x-ai-web/gdb/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #ef4444, #dc2626);">
+            <span style="color: white;">GDB</span>
+          </div>
+          <span class="tech-name">GDB调试</span>
+        </div>
+        <p class="tech-desc">断点调试，变量查看</p>
+      </a>
+    </div>
+  </div>
 
-<a href="/x-ai-web/dreamina/" class="tool-card card-hover no-underline">
-<div class="tool-icon text-white">
-<img src="./images/jm.png" alt="即梦AI" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
-</div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">即梦AI教程</h3>
-<p class="text-sm text-slate-500 mb-3">即梦AI，Seedance2.0，国内顶尖AI绘画/视频生成，画质极佳</p>
-<div class="flex items-center justify-between">
-<span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">精品首选</span>
-<span class="text-xs text-slate-400">中高价位</span>
-</div>
-</a>
+  <div class="category-section">
+    <div class="category-header">
+      <h2 class="category-title">CUDA GPU编程层</h2>
+    </div>
+    <div class="tech-grid">
+      <a href="/x-ai-web/cuda/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #76b900, #5a8f00);">
+            <span style="color: white;">CUDA</span>
+          </div>
+          <span class="tech-name">CUDA基础</span>
+        </div>
+        <p class="tech-desc">内核函数，线程层次，内存模型</p>
+      </a>
+      <a href="/x-ai-web/cuda-memory/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #10b981, #059669);">
+            <span style="color: white;">Mem</span>
+          </div>
+          <span class="tech-name">CUDA内存优化</span>
+        </div>
+        <p class="tech-desc">全局内存，共享内存，统一内存</p>
+      </a>
+      <a href="/x-ai-web/cublas/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #f59e0b, #d97706);">
+            <span style="color: white;">BLAS</span>
+          </div>
+          <span class="tech-name">cuBLAS</span>
+        </div>
+        <p class="tech-desc">GPU矩阵运算，GEMM/GEMV</p>
+      </a>
+      <a href="/x-ai-web/cudnn/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #8b5cf6, #7c3aed);">
+            <span style="color: white;">DNN</span>
+          </div>
+          <span class="tech-name">cuDNN</span>
+        </div>
+        <p class="tech-desc">深度学习原语，卷积，池化</p>
+      </a>
+      <a href="/x-ai-web/nccl/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #ec4899, #db2777);">
+            <span style="color: white;">NCCL</span>
+          </div>
+          <span class="tech-name">NCCL</span>
+        </div>
+        <p class="tech-desc">多GPU通信，AllReduce</p>
+      </a>
+    </div>
+  </div>
 
-<a href="/x-ai-web/midjourney/" class="tool-card card-hover no-underline">
-<div class="tool-icon text-white">
-<img src="./images/md.png" alt="Midjourney" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
-</div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">Midjourney教程</h3>
-<p class="text-sm text-slate-500 mb-3">业界画质标杆，AI图像生成天花板，专业艺术创作首选</p>
-<div class="flex items-center justify-between">
-<span class="text-xs font-bold text-purple-600 bg-purple-50 px-2 py-1 rounded-full">画质顶尖</span>
-<span class="text-xs text-slate-400">订阅制</span>
-</div>
-</a>
+  <div class="category-section">
+    <div class="category-header">
+      <h2 class="category-title">传统机器学习层</h2>
+    </div>
+    <div class="tech-grid">
+      <a href="/x-ai-web/sklearn/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #f7931e, #e07f00);">
+            <span style="color: white;">SK</span>
+          </div>
+          <span class="tech-name">Scikit-learn</span>
+        </div>
+        <p class="tech-desc">ML算法，预处理，模型选择</p>
+      </a>
+      <a href="/x-ai-web/xgboost/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #00b4d8, #0096c7);">
+            <span style="color: white;">XGB</span>
+          </div>
+          <span class="tech-name">XGBoost</span>
+        </div>
+        <p class="tech-desc">梯度提升，回归/分类/排序</p>
+      </a>
+      <a href="/x-ai-web/lightgbm/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #22c55e, #16a34a);">
+            <span style="color: white;">LGB</span>
+          </div>
+          <span class="tech-name">LightGBM</span>
+        </div>
+        <p class="tech-desc">微软GBDT，速度快内存省</p>
+      </a>
+    </div>
+  </div>
 
-<a href="/x-ai-web/sd/" class="tool-card card-hover no-underline">
-<div class="tool-icon text-white">
-<img src="./images/sd.png" alt="Stable Diffusion" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
-</div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">SD教程</h3>
-<p class="text-sm text-slate-500 mb-3">StableDiffusion教程，开源AI绘画基座，自由度最高，本地部署</p>
-<div class="flex items-center justify-between">
-<span class="text-xs font-bold text-slate-600 bg-slate-100 px-2 py-1 rounded-full">开源免费</span>
-<span class="text-xs text-slate-400">技术向</span>
-</div>
-</a>
+  <div class="category-section">
+    <div class="category-header">
+      <h2 class="category-title">深度学习框架层</h2>
+    </div>
+    <div class="tech-grid">
+      <a href="/x-ai-web/pytorch/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #ee4c2c, #d13b1c);">
+            <span style="color: white;">PT</span>
+          </div>
+          <span class="tech-name">PyTorch</span>
+        </div>
+        <p class="tech-desc">动态图，自动微分，nn.Module</p>
+      </a>
+      <a href="/x-ai-web/tensorflow/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #ff6f00, #e65100);">
+            <span style="color: white;">TF</span>
+          </div>
+          <span class="tech-name">TensorFlow/Keras</span>
+        </div>
+        <p class="tech-desc">静态图，生产部署，Keras API</p>
+      </a>
+      <a href="/x-ai-web/pytorch-lightning/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #7c3aed, #6d28d9);">
+            <span style="color: white;">⚡</span>
+          </div>
+          <span class="tech-name">PyTorch Lightning</span>
+        </div>
+        <p class="tech-desc">工程化封装，自动分布式</p>
+      </a>
+    </div>
+  </div>
 
-<a href="/x-ai-web/runway/" class="tool-card card-hover no-underline">
-<div class="tool-icon text-white">
-<img src="./images/rw.png" alt="Runway" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
-</div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">Runway教程</h3>
-<p class="text-sm text-slate-500 mb-3">专业级AI视频工具，Gen-2视频生成，影视级效果，技术向</p>
-<div class="flex items-center justify-between">
-<span class="text-xs font-bold text-violet-600 bg-violet-50 px-2 py-1 rounded-full">专业级</span>
-<span class="text-xs text-slate-400">高价位</span>
-</div>
-</a>
-</div>
-</section>
+  <div class="category-section">
+    <div class="category-header">
+      <h2 class="category-title">大模型训练与微调层</h2>
+    </div>
+    <div class="tech-grid">
+      <a href="/x-ai-web/transformers/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #ffcc00, #f0b400);">
+            <span style="color: #333;">🤗</span>
+          </div>
+          <span class="tech-name">Transformers</span>
+        </div>
+        <p class="tech-desc">预训练模型，Tokenizer，Trainer</p>
+      </a>
+      <a href="/x-ai-web/peft/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #a855f7, #9333ea);">
+            <span style="color: white;">PEFT</span>
+          </div>
+          <span class="tech-name">PEFT</span>
+        </div>
+        <p class="tech-desc">LoRA，QLoRA参数高效微调</p>
+      </a>
+      <a href="/x-ai-web/deepspeed/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #0078d4, #005a9e);">
+            <span style="color: white;">DS</span>
+          </div>
+          <span class="tech-name">DeepSpeed</span>
+        </div>
+        <p class="tech-desc">ZeRO优化，3D并行</p>
+      </a>
+      <a href="/x-ai-web/unsloth/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #22c55e, #16a34a);">
+            <span style="color: white;">US</span>
+          </div>
+          <span class="tech-name">Unsloth</span>
+        </div>
+        <p class="tech-desc">2024最快微调，显存优化</p>
+      </a>
+    </div>
+  </div>
 
-<section id="efficiency-tools" class="py-6 max-w-7xl mx-auto px-6">
-<div class="flex items-center gap-3 mb-4">
-<h2 class="text-xl font-bold text-slate-900">高效工具</h2>
-</div>
+  <div class="category-section">
+    <div class="category-header">
+      <h2 class="category-title">大模型推理部署层</h2>
+    </div>
+    <div class="tech-grid">
+      <a href="/x-ai-web/vllm/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #0ea5e9, #0284c7);">
+            <span style="color: white;">vLLM</span>
+          </div>
+          <span class="tech-name">vLLM</span>
+        </div>
+        <p class="tech-desc">PagedAttention，高吞吐服务</p>
+      </a>
+      <a href="/x-ai-web/tensorrt-llm/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #76b900, #5a8f00);">
+            <span style="color: white;">TRT</span>
+          </div>
+          <span class="tech-name">TensorRT-LLM</span>
+        </div>
+        <p class="tech-desc">NVIDIA LLM优化，量化</p>
+      </a>
+      <a href="/x-ai-web/ollama/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #6366f1, #4f46e5);">
+            <span style="color: white;">Ollama</span>
+          </div>
+          <span class="tech-name">Ollama</span>
+        </div>
+        <p class="tech-desc">一键本地LLM，REST API</p>
+      </a>
+      <a href="/x-ai-web/tensorrt/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #76b900, #5a8f00);">
+            <span style="color: white;">TRT</span>
+          </div>
+          <span class="tech-name">TensorRT</span>
+        </div>
+        <p class="tech-desc">模型优化部署，ONNX导入</p>
+      </a>
+    </div>
+  </div>
 
-<div class="grid grid-cols-1 lg:grid-cols-5 gap-4">
-<a href="/x-ai-web/deepseek/" class="tool-card card-hover no-underline">
-<div class="tool-icon text-white">
-<img src="./images/ds.png" alt="DeepSeek" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
-</div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">DeepSeek教程</h3>
-<p class="text-sm text-slate-500 mb-3">DeepSeek官方教程，提示词工程入门到精通</p>
-<div class="flex items-center justify-between">
-<span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">必修课</span>
-<span class="text-xs text-slate-400">免费教程</span>
-</div>
-</a>
+  <div class="category-section">
+    <div class="category-header">
+      <h2 class="category-title">LLM应用开发层</h2>
+    </div>
+    <div class="tech-grid">
+      <a href="/x-ai-web/langchain/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #1c3c3c, #0d1f1f);">
+            <span style="color: #00b4d8;">🦜</span>
+          </div>
+          <span class="tech-name">LangChain</span>
+        </div>
+        <p class="tech-desc">Chain链，Agent智能体，Memory</p>
+      </a>
+      <a href="/x-ai-web/llamaindex/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #6366f1, #4f46e5);">
+            <span style="color: white;">LI</span>
+          </div>
+          <span class="tech-name">LlamaIndex</span>
+        </div>
+        <p class="tech-desc">RAG框架，索引与检索</p>
+      </a>
+      <a href="/x-ai-web/langgraph/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #10b981, #059669);">
+            <span style="color: white;">LG</span>
+          </div>
+          <span class="tech-name">LangGraph</span>
+        </div>
+        <p class="tech-desc">状态机工作流，多Agent协作</p>
+      </a>
+    </div>
+  </div>
 
-<a href="/x-ai-web/openclaw/" class="tool-card card-hover no-underline">
-<div class="tool-icon text-white">
-<img src="./images/oc.svg" alt="OpenClaw" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
-</div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">OpenClaw教程</h3>
-<p class="text-sm text-slate-500 mb-3">开源免费的个人AI助手，本地部署，隐私安全</p>
-<div class="flex items-center justify-between">
-<span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full">开源免费</span>
-<span class="text-xs text-slate-400">本地部署</span>
-</div>
-</a>
+  <div class="category-section">
+    <div class="category-header">
+      <h2 class="category-title">向量数据库层</h2>
+    </div>
+    <div class="tech-grid">
+      <a href="/x-ai-web/chroma/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #ec4899, #db2777);">
+            <span style="color: white;">Ch</span>
+          </div>
+          <span class="tech-name">Chroma</span>
+        </div>
+        <p class="tech-desc">嵌入式向量库，轻量RAG</p>
+      </a>
+      <a href="/x-ai-web/milvus/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #0ea5e9, #0284c7);">
+            <span style="color: white;">Mv</span>
+          </div>
+          <span class="tech-name">Milvus</span>
+        </div>
+        <p class="tech-desc">云原生向量数据库，十亿级规模</p>
+      </a>
+      <a href="/x-ai-web/faiss/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #06b6d4, #0891b2);">
+            <span style="color: white;">Fs</span>
+          </div>
+          <span class="tech-name">Faiss</span>
+        </div>
+        <p class="tech-desc">Meta向量检索库，PQ/HNSW</p>
+      </a>
+    </div>
+  </div>
 
-<a href="/x-ai-web/trae/" class="tool-card card-hover no-underline">
-<div class="tool-icon text-white">
-<img src="./images/trae.png" alt="Trae" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
-</div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">Trae教程</h3>
-<p class="text-sm text-slate-500 mb-3">AI原生IDE，智能代码补全与生成，开发效率翻倍</p>
-<div class="flex items-center justify-between">
-<span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">AI IDE</span>
-<span class="text-xs text-slate-400">免费使用</span>
-</div>
-</a>
+  <div class="category-section">
+    <div class="category-header">
+      <h2 class="category-title">MLOps与模型工程层</h2>
+    </div>
+    <div class="tech-grid">
+      <a href="/x-ai-web/mlflow/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #0ea5e9, #0284c7);">
+            <span style="color: white;">MF</span>
+          </div>
+          <span class="tech-name">MLflow</span>
+        </div>
+        <p class="tech-desc">实验跟踪，模型注册</p>
+      </a>
+      <a href="/x-ai-web/wandb/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #fbbf24, #f59e0b);">
+            <span style="color: #333;">WB</span>
+          </div>
+          <span class="tech-name">Weights & Biases</span>
+        </div>
+        <p class="tech-desc">可视化实验，超参搜索</p>
+      </a>
+      <a href="/x-ai-web/airflow/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #0ea5e9, #0284c7);">
+            <span style="color: white;">AF</span>
+          </div>
+          <span class="tech-name">Airflow</span>
+        </div>
+        <p class="tech-desc">DAG编排，任务调度</p>
+      </a>
+      <a href="/x-ai-web/triton/" class="tech-card">
+        <div class="tech-card-header">
+          <div class="tech-icon" style="background: linear-gradient(135deg, #76b900, #5a8f00);">
+            <span style="color: white;">TS</span>
+          </div>
+          <span class="tech-name">Triton Server</span>
+        </div>
+        <p class="tech-desc">模型服务，动态批处理</p>
+      </a>
+    </div>
+  </div>
 
-<a href="/x-ai-web/cursor/" class="tool-card card-hover no-underline">
-<div class="tool-icon text-white">
-<img src="./images/cursor.png" alt="Cursor" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
 </div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">Cursor教程</h3>
-<p class="text-sm text-slate-500 mb-3">AI代码编辑器，GPT-4驱动，代码生成与重构神器</p>
-<div class="flex items-center justify-between">
-<span class="text-xs font-bold text-slate-600 bg-slate-100 px-2 py-1 rounded-full">编程神器</span>
-<span class="text-xs text-slate-400">订阅制</span>
-</div>
-</a>
-
-<a href="/x-ai-web/claude/" class="tool-card card-hover no-underline">
-<div class="tool-icon text-white">
-<img src="./images/code.png" alt="Claude Code" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover;">
-</div>
-<h3 class="font-bold text-lg mb-1 text-slate-900">ClaudeCode教程</h3>
-<p class="text-sm text-slate-500 mb-3">Anthropic官方编程助手，长上下文，代码理解力强</p>
-<div class="flex items-center justify-between">
-<span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-full">长上下文</span>
-<span class="text-xs text-slate-400">订阅制</span>
-</div>
-</a>
-</div>
-</section>
-
-<section id="business" class="py-6 max-w-7xl mx-auto px-6">
-<div class="flex items-center gap-3 mb-4">
-<h2 class="text-xl font-bold text-slate-900">商业落地</h2>
-</div>
-
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-<a href="/x-ai-web/drama-comic" class="tool-card card-hover no-underline p-6">
-<div class="flex items-center gap-4 mb-4">
-<div class="tool-icon bg-gradient-to-br from-rose-500 to-pink-600 text-white" style="width: 56px; height: 56px;">
-<span class="iconify text-3xl" data-icon="solar:play-circle-bold-duotone"></span>
-</div>
-<div>
-<h3 class="font-bold text-xl text-slate-900">漫剧短剧</h3>
-<p class="text-sm text-slate-500">AI生成短剧内容变现</p>
-</div>
-</div>
-<p class="text-sm text-slate-600 mb-4 leading-relaxed">
-利用AI工具快速生成短剧脚本、分镜、视频内容，在抖音、快手等平台实现内容变现。低成本、高效率的短剧生产流程。
-</p>
-<div class="flex flex-wrap gap-2">
-<span class="text-xs font-bold text-rose-600 bg-rose-50 px-3 py-1 rounded-full">热门赛道</span>
-<span class="text-xs font-bold text-pink-600 bg-pink-50 px-3 py-1 rounded-full">变现快</span>
-<span class="text-xs font-bold text-fuchsia-600 bg-fuchsia-50 px-3 py-1 rounded-full">门槛低</span>
-</div>
-</a>
-
-<a href="/x-ai-web/digital-human" class="tool-card card-hover no-underline p-6">
-<div class="flex items-center gap-4 mb-4">
-<div class="tool-icon bg-gradient-to-br from-indigo-500 to-purple-600 text-white" style="width: 56px; height: 56px;">
-<span class="iconify text-3xl" data-icon="solar:videocamera-record-bold-duotone"></span>
-</div>
-<div>
-<h3 class="font-bold text-xl text-slate-900">直播带货</h3>
-<p class="text-sm text-slate-500">AI数字人直播变现</p>
-</div>
-</div>
-<p class="text-sm text-slate-600 mb-4 leading-relaxed">
-数字人24小时不间断直播，降低人力成本。AI智能话术、实时互动，提升转化率。适合电商、知识付费等多种场景。
-</p>
-<div class="flex flex-wrap gap-2">
-<span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full">24小时直播</span>
-<span class="text-xs font-bold text-purple-600 bg-purple-50 px-3 py-1 rounded-full">低成本</span>
-<span class="text-xs font-bold text-violet-600 bg-violet-50 px-3 py-1 rounded-full">高转化</span>
-</div>
-</a>
-
-<a href="/x-ai-web/side-business" class="tool-card card-hover no-underline p-6">
-<div class="flex items-center gap-4 mb-4">
-<div class="tool-icon bg-gradient-to-br from-emerald-500 to-teal-600 text-white" style="width: 56px; height: 56px;">
-<span class="iconify text-3xl" data-icon="solar:wallet-money-bold-duotone"></span>
-</div>
-<div>
-<h3 class="font-bold text-xl text-slate-900">副业变现</h3>
-<p class="text-sm text-slate-500">AI工具副业赚钱指南</p>
-</div>
-</div>
-<p class="text-sm text-slate-600 mb-4 leading-relaxed">
-利用AI工具接单赚钱：AI绘画接单、文案代写、视频制作、PPT设计等。零成本启动，适合上班族和学生党的副业选择。
-</p>
-<div class="flex flex-wrap gap-2">
-<span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full">零成本</span>
-<span class="text-xs font-bold text-teal-600 bg-teal-50 px-3 py-1 rounded-full">时间自由</span>
-<span class="text-xs font-bold text-green-600 bg-green-50 px-3 py-1 rounded-full">多平台</span>
-</div>
-</a>
-</div>
-</section>

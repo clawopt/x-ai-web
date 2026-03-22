@@ -1,216 +1,571 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "x-AI教程",
-  description: "让AI成为你的智能生产力",
+  title: "AI编程技术栈",
+  description: "从Python到CUDA，从深度学习到大模型部署",
   lang: 'zh-CN',
   base: '/x-ai-web/',
   appearance: false,
   head: [
     ['link', { rel: 'icon', href: '/x-ai-web/images/favicon.svg', type: 'image/svg+xml' }],
-    ['meta', { name: 'keywords', content: 'AI教程,AI工具,AI赛道,AI案例,智能生产力' }],
-    ['meta', { name: 'author', content: 'x-AI教程' }],
+    ['meta', { name: 'keywords', content: 'AI编程,深度学习,CUDA,PyTorch,大模型,LLM,机器学习' }],
+    ['meta', { name: 'author', content: 'AI编程技术栈' }],
     ['script', { src: 'https://cdn.tailwindcss.com' }],
     ['script', { src: 'https://code.iconify.design/3/3.1.1/iconify.min.js' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap' }],
   ],
   themeConfig: {
-    logo: 'X',
-    siteTitle: 'x-AI教程',
+    logo: 'AI',
+    siteTitle: 'AI编程技术栈',
     search: { provider: 'local' },
-    
+
     nav: [
       { text: '首页', link: '/' },
-      { 
-        text: '视频图像', 
+      {
+        text: '编程基础',
         items: [
-          { text: '剪映AI教程', link: '/capcut/' },
-          { text: '即梦AI教程', link: '/dreamina/' },
-          { text: 'Midjourney教程', link: '/midjourney/' },
-          { text: 'StableDiffusion教程', link: '/sd/' },
-          { text: 'Runway教程', link: '/runway/' }
+          { text: 'Python', link: '/python/' },
+          { text: 'NumPy', link: '/numpy/' },
+          { text: 'Pandas', link: '/pandas/' },
+          { text: 'Matplotlib', link: '/matplotlib/' }
         ]
       },
-      { 
-        text: '高效工具', 
+      {
+        text: 'C++开发',
         items: [
-          { text: 'DeepSeek教程', link: '/deepseek/' },
-          { text: 'OpenClaw教程', link: '/openclaw/' },
-          { text: 'Trae教程', link: '/trae/' },
-          { text: 'Cursor教程', link: '/cursor/' },
-          { text: 'ClaudeCode教程', link: '/claude/' }
+          { text: 'C++基础', link: '/cpp/' },
+          { text: '现代C++', link: '/modern-cpp/' },
+          { text: 'CMake', link: '/cmake/' },
+          { text: 'GDB调试', link: '/gdb/' }
         ]
       },
-      { 
-        text: '商业落地', 
+      {
+        text: 'CUDA编程',
         items: [
-          { text: '漫剧短剧', link: '/drama-comic/' },
-          { text: '直播带货', link: '/digital-human/' },
-          { text: '副业变现', link: '/side-business/' }
+          { text: 'CUDA基础', link: '/cuda/' },
+          { text: 'CUDA内存', link: '/cuda-memory/' },
+          { text: 'cuBLAS', link: '/cublas/' },
+          { text: 'cuDNN', link: '/cudnn/' },
+          { text: 'NCCL', link: '/nccl/' }
         ]
       },
-      { text: '最新博客', link: '/blog' }
+      {
+        text: '深度学习',
+        items: [
+          { text: 'PyTorch', link: '/pytorch/' },
+          { text: 'TensorFlow', link: '/tensorflow/' },
+          { text: 'Scikit-learn', link: '/sklearn/' }
+        ]
+      },
+      {
+        text: '大模型',
+        items: [
+          { text: 'Transformers', link: '/transformers/' },
+          { text: 'vLLM', link: '/vllm/' },
+          { text: 'LangChain', link: '/langchain/' },
+          { text: 'LlamaIndex', link: '/llamaindex/' }
+        ]
+      },
+      {
+        text: 'MLOps',
+        items: [
+          { text: 'MLflow', link: '/mlflow/' },
+          { text: 'W&B', link: '/wandb/' },
+          { text: 'Airflow', link: '/airflow/' },
+          { text: 'Triton', link: '/triton/' }
+        ]
+      }
     ],
 
     footer: {
-      message: '探索 AI 时代的无限可能',
-      copyright: '© 2026 x-AI教程. 保留所有权利.'
+      message: '从基础到前沿，掌握AI编程全栈技术',
+      copyright: '© 2026 AI编程技术栈. 保留所有权利.'
     },
 
     sidebar: {
-      '/capcut/': [
+      '/python/': [
         {
-          text: '剪映AI教程',
+          text: 'Python教程',
           collapsed: false,
           items: [
-            { text: '工具介绍', link: '/capcut/' },
-            { text: '学习教程', link: '/capcut/tutorial' },
-            { text: '视频教程', link: '/capcut/videos' },
-            { text: '实战项目', link: '/capcut/projects' }
+            { text: '概述', link: '/python/' },
+            { text: '基础语法', link: '/python/syntax' },
+            { text: '数据结构', link: '/python/data-structures' },
+            { text: '面向对象', link: '/python/oop' },
+            { text: '标准库', link: '/python/stdlib' }
           ]
         }
       ],
-      '/dreamina/': [
+      '/numpy/': [
         {
-          text: '即梦AI教程',
+          text: 'NumPy教程',
           collapsed: false,
           items: [
-            { text: '工具介绍', link: '/dreamina/' },
-            { text: '学习教程', link: '/dreamina/tutorial' },
-            { text: '视频教程', link: '/dreamina/videos' },
-            { text: '实战项目', link: '/dreamina/projects' }
+            { text: '概述', link: '/numpy/' },
+            { text: 'ndarray数组', link: '/numpy/ndarray' },
+            { text: '向量化运算', link: '/numpy/vectorization' },
+            { text: '广播机制', link: '/numpy/broadcasting' }
           ]
         }
       ],
-      '/midjourney/': [
+      '/pandas/': [
         {
-          text: 'Midjourney教程',
+          text: 'Pandas教程',
           collapsed: false,
           items: [
-            { text: '工具介绍', link: '/midjourney/' },
-            { text: '学习教程', link: '/midjourney/tutorial' },
-            { text: '视频教程', link: '/midjourney/videos' },
-            { text: '实战项目', link: '/midjourney/projects' }
+            { text: '概述', link: '/pandas/' },
+            { text: 'DataFrame', link: '/pandas/dataframe' },
+            { text: '数据清洗', link: '/pandas/cleaning' },
+            { text: '数据分析', link: '/pandas/analysis' }
           ]
         }
       ],
-      '/sd/': [
+      '/matplotlib/': [
         {
-          text: 'Stable Diffusion教程',
+          text: 'Matplotlib教程',
           collapsed: false,
           items: [
-            { text: '工具介绍', link: '/sd/' },
-            { text: '学习教程', link: '/sd/tutorial' },
-            { text: '视频教程', link: '/sd/videos' },
-            { text: '实战项目', link: '/sd/projects' }
+            { text: '概述', link: '/matplotlib/' },
+            { text: '基础绑图', link: '/matplotlib/basic' },
+            { text: '高级图表', link: '/matplotlib/advanced' }
           ]
         }
       ],
-      '/runway/': [
+      '/cpp/': [
         {
-          text: 'Runway教程',
+          text: 'C++基础教程',
           collapsed: false,
           items: [
-            { text: '工具介绍', link: '/runway/' },
-            { text: '学习教程', link: '/runway/tutorial' },
-            { text: '视频教程', link: '/runway/videos' },
-            { text: '实战项目', link: '/runway/projects' }
+            { text: '概述', link: '/cpp/' },
+            { text: '语法基础', link: '/cpp/syntax' },
+            { text: '指针与引用', link: '/cpp/pointer' },
+            { text: '面向对象', link: '/cpp/oop' }
           ]
         }
       ],
-      '/deepseek/': [
+      '/modern-cpp/': [
         {
-          text: 'DeepSeek教程',
+          text: '现代C++教程',
           collapsed: false,
           items: [
-            { text: '工具介绍', link: '/deepseek/' },
-            { text: '学习教程', link: '/deepseek/tutorial' },
-            { text: '视频教程', link: '/deepseek/videos' },
-            { text: '实战项目', link: '/deepseek/projects' }
+            { text: '概述', link: '/modern-cpp/' },
+            { text: '智能指针', link: '/modern-cpp/smart-pointer' },
+            { text: 'Lambda表达式', link: '/modern-cpp/lambda' },
+            { text: '移动语义', link: '/modern-cpp/move' }
           ]
         }
       ],
-      '/openclaw/': [
+      '/cmake/': [
         {
-          text: 'OpenClaw教程',
+          text: 'CMake教程',
           collapsed: false,
           items: [
-            { text: '工具介绍', link: '/openclaw/' },
-            { text: '学习教程', link: '/openclaw/tutorial' },
-            { text: '视频教程', link: '/openclaw/videos' },
-            { text: '实战项目', link: '/openclaw/projects' }
+            { text: '概述', link: '/cmake/' },
+            { text: '基础配置', link: '/cmake/basic' },
+            { text: '目标管理', link: '/cmake/target' },
+            { text: 'CUDA支持', link: '/cmake/cuda' }
           ]
         }
       ],
-      '/trae/': [
+      '/gdb/': [
         {
-          text: 'Trae教程',
+          text: 'GDB调试教程',
           collapsed: false,
           items: [
-            { text: '工具介绍', link: '/trae/' },
-            { text: '学习教程', link: '/trae/tutorial' },
-            { text: '视频教程', link: '/trae/videos' },
-            { text: '实战项目', link: '/trae/projects' }
+            { text: '概述', link: '/gdb/' },
+            { text: '断点调试', link: '/gdb/breakpoint' },
+            { text: '变量查看', link: '/gdb/variable' },
+            { text: 'Core Dump', link: '/gdb/coredump' }
           ]
         }
       ],
-      '/cursor/': [
+      '/cuda/': [
         {
-          text: 'Cursor教程',
+          text: 'CUDA基础教程',
           collapsed: false,
           items: [
-            { text: '工具介绍', link: '/cursor/' },
-            { text: '学习教程', link: '/cursor/tutorial' },
-            { text: '视频教程', link: '/cursor/videos' },
-            { text: '实战项目', link: '/cursor/projects' }
+            { text: '概述', link: '/cuda/' },
+            { text: '内核函数', link: '/cuda/kernel' },
+            { text: '线程层次', link: '/cuda/thread' },
+            { text: '内存模型', link: '/cuda/memory' }
           ]
         }
       ],
-      '/claude/': [
+      '/cuda-memory/': [
         {
-          text: 'Claude Code教程',
+          text: 'CUDA内存优化',
           collapsed: false,
           items: [
-            { text: '工具介绍', link: '/claude/' },
-            { text: '学习教程', link: '/claude/tutorial' },
-            { text: '视频教程', link: '/claude/videos' },
-            { text: '实战项目', link: '/claude/projects' }
+            { text: '概述', link: '/cuda-memory/' },
+            { text: '全局内存', link: '/cuda-memory/global' },
+            { text: '共享内存', link: '/cuda-memory/shared' },
+            { text: '统一内存', link: '/cuda-memory/unified' }
           ]
         }
       ],
-      '/drama-comic/': [
+      '/cublas/': [
         {
-          text: '短剧漫剧教程',
+          text: 'cuBLAS教程',
           collapsed: false,
           items: [
-            { text: '工具介绍', link: '/drama-comic/' },
-            { text: '学习教程', link: '/drama-comic/tutorial' },
-            { text: '视频教程', link: '/drama-comic/videos' },
-            { text: '实践项目', link: '/drama-comic/projects' }
+            { text: '概述', link: '/cublas/' },
+            { text: '矩阵运算', link: '/cublas/gemm' },
+            { text: '批处理操作', link: '/cublas/batch' }
           ]
         }
       ],
-      '/digital-human/': [
+      '/cudnn/': [
         {
-          text: '直播带货教程',
+          text: 'cuDNN教程',
           collapsed: false,
           items: [
-            { text: '工具介绍', link: '/digital-human/' },
-            { text: '学习教程', link: '/digital-human/tutorial' },
-            { text: '视频教程', link: '/digital-human/videos' },
-            { text: '实践项目', link: '/digital-human/projects' }
+            { text: '概述', link: '/cudnn/' },
+            { text: '卷积操作', link: '/cudnn/convolution' },
+            { text: '池化与归一化', link: '/cudnn/pooling' }
           ]
         }
       ],
-      '/side-business/': [
+      '/nccl/': [
         {
-          text: '副业变现教程',
+          text: 'NCCL教程',
           collapsed: false,
           items: [
-            { text: '工具介绍', link: '/side-business/' },
-            { text: '学习教程', link: '/side-business/tutorial' },
-            { text: '视频教程', link: '/side-business/videos' },
-            { text: '实践项目', link: '/side-business/projects' }
+            { text: '概述', link: '/nccl/' },
+            { text: '集合通信', link: '/nccl/collective' },
+            { text: '多GPU通信', link: '/nccl/multi-gpu' }
+          ]
+        }
+      ],
+      '/polars/': [
+        {
+          text: 'Polars教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/polars/' },
+            { text: 'DataFrame操作', link: '/polars/dataframe' },
+            { text: '惰性执行', link: '/polars/lazy' }
+          ]
+        }
+      ],
+      '/pyspark/': [
+        {
+          text: 'PySpark教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/pyspark/' },
+            { text: 'RDD操作', link: '/pyspark/rdd' },
+            { text: 'DataFrame API', link: '/pyspark/dataframe' }
+          ]
+        }
+      ],
+      '/sklearn/': [
+        {
+          text: 'Scikit-learn教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/sklearn/' },
+            { text: '预处理', link: '/sklearn/preprocessing' },
+            { text: '模型训练', link: '/sklearn/model' },
+            { text: '流水线', link: '/sklearn/pipeline' }
+          ]
+        }
+      ],
+      '/xgboost/': [
+        {
+          text: 'XGBoost教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/xgboost/' },
+            { text: '分类与回归', link: '/xgboost/model' },
+            { text: '调参优化', link: '/xgboost/tuning' }
+          ]
+        }
+      ],
+      '/lightgbm/': [
+        {
+          text: 'LightGBM教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/lightgbm/' },
+            { text: '快速入门', link: '/lightgbm/quickstart' },
+            { text: '参数调优', link: '/lightgbm/tuning' }
+          ]
+        }
+      ],
+      '/pytorch/': [
+        {
+          text: 'PyTorch教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/pytorch/' },
+            { text: '张量操作', link: '/pytorch/tensor' },
+            { text: '自动微分', link: '/pytorch/autograd' },
+            { text: '神经网络', link: '/pytorch/nn' },
+            { text: '数据加载', link: '/pytorch/dataloader' }
+          ]
+        }
+      ],
+      '/tensorflow/': [
+        {
+          text: 'TensorFlow教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/tensorflow/' },
+            { text: 'Keras API', link: '/tensorflow/keras' },
+            { text: '模型部署', link: '/tensorflow/deployment' }
+          ]
+        }
+      ],
+      '/pytorch-lightning/': [
+        {
+          text: 'PyTorch Lightning教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/pytorch-lightning/' },
+            { text: 'LightningModule', link: '/pytorch-lightning/module' },
+            { text: '分布式训练', link: '/pytorch-lightning/distributed' }
+          ]
+        }
+      ],
+      '/transformers/': [
+        {
+          text: 'Transformers教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/transformers/' },
+            { text: '预训练模型', link: '/transformers/models' },
+            { text: 'Tokenizer', link: '/transformers/tokenizer' },
+            { text: 'Trainer', link: '/transformers/trainer' }
+          ]
+        }
+      ],
+      '/peft/': [
+        {
+          text: 'PEFT教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/peft/' },
+            { text: 'LoRA', link: '/peft/lora' },
+            { text: 'QLoRA', link: '/peft/qlora' }
+          ]
+        }
+      ],
+      '/trl/': [
+        {
+          text: 'TRL教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/trl/' },
+            { text: 'RLHF', link: '/trl/rlhf' },
+            { text: 'DPO', link: '/trl/dpo' }
+          ]
+        }
+      ],
+      '/deepspeed/': [
+        {
+          text: 'DeepSpeed教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/deepspeed/' },
+            { text: 'ZeRO优化', link: '/deepspeed/zero' },
+            { text: '3D并行', link: '/deepspeed/3d-parallel' }
+          ]
+        }
+      ],
+      '/flash-attention/': [
+        {
+          text: 'FlashAttention教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/flash-attention/' },
+            { text: '原理与使用', link: '/flash-attention/usage' }
+          ]
+        }
+      ],
+      '/unsloth/': [
+        {
+          text: 'Unsloth教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/unsloth/' },
+            { text: '快速微调', link: '/unsloth/finetune' }
+          ]
+        }
+      ],
+      '/vllm/': [
+        {
+          text: 'vLLM教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/vllm/' },
+            { text: 'PagedAttention', link: '/vllm/paged-attention' },
+            { text: '部署服务', link: '/vllm/deployment' }
+          ]
+        }
+      ],
+      '/tensorrt-llm/': [
+        {
+          text: 'TensorRT-LLM教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/tensorrt-llm/' },
+            { text: '模型优化', link: '/tensorrt-llm/optimization' },
+            { text: '量化部署', link: '/tensorrt-llm/quantization' }
+          ]
+        }
+      ],
+      '/llama-cpp/': [
+        {
+          text: 'llama.cpp教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/llama-cpp/' },
+            { text: '量化推理', link: '/llama-cpp/quantization' },
+            { text: '本地部署', link: '/llama-cpp/deployment' }
+          ]
+        }
+      ],
+      '/ollama/': [
+        {
+          text: 'Ollama教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/ollama/' },
+            { text: '模型管理', link: '/ollama/models' },
+            { text: 'API使用', link: '/ollama/api' }
+          ]
+        }
+      ],
+      '/tensorrt/': [
+        {
+          text: 'TensorRT教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/tensorrt/' },
+            { text: 'ONNX导入', link: '/tensorrt/onnx' },
+            { text: '插件开发', link: '/tensorrt/plugin' }
+          ]
+        }
+      ],
+      '/langchain/': [
+        {
+          text: 'LangChain教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/langchain/' },
+            { text: 'Chain链', link: '/langchain/chain' },
+            { text: 'Agent智能体', link: '/langchain/agent' },
+            { text: 'Memory记忆', link: '/langchain/memory' }
+          ]
+        }
+      ],
+      '/llamaindex/': [
+        {
+          text: 'LlamaIndex教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/llamaindex/' },
+            { text: 'RAG基础', link: '/llamaindex/rag' },
+            { text: '索引与检索', link: '/llamaindex/index' }
+          ]
+        }
+      ],
+      '/langgraph/': [
+        {
+          text: 'LangGraph教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/langgraph/' },
+            { text: '状态机', link: '/langgraph/state' },
+            { text: '多Agent工作流', link: '/langgraph/workflow' }
+          ]
+        }
+      ],
+      '/chroma/': [
+        {
+          text: 'Chroma教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/chroma/' },
+            { text: '向量存储', link: '/chroma/storage' },
+            { text: 'RAG应用', link: '/chroma/rag' }
+          ]
+        }
+      ],
+      '/milvus/': [
+        {
+          text: 'Milvus教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/milvus/' },
+            { text: '集合管理', link: '/milvus/collection' },
+            { text: '大规模检索', link: '/milvus/search' }
+          ]
+        }
+      ],
+      '/faiss/': [
+        {
+          text: 'Faiss教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/faiss/' },
+            { text: '索引类型', link: '/faiss/index' },
+            { text: 'GPU加速', link: '/faiss/gpu' }
+          ]
+        }
+      ],
+      '/mlflow/': [
+        {
+          text: 'MLflow教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/mlflow/' },
+            { text: '实验跟踪', link: '/mlflow/tracking' },
+            { text: '模型注册', link: '/mlflow/registry' }
+          ]
+        }
+      ],
+      '/wandb/': [
+        {
+          text: 'W&B教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/wandb/' },
+            { text: '实验可视化', link: '/wandb/visualization' },
+            { text: '超参搜索', link: '/wandb/sweep' }
+          ]
+        }
+      ],
+      '/airflow/': [
+        {
+          text: 'Airflow教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/airflow/' },
+            { text: 'DAG编排', link: '/airflow/dag' },
+            { text: '任务调度', link: '/airflow/scheduling' }
+          ]
+        }
+      ],
+      '/triton/': [
+        {
+          text: 'Triton教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/triton/' },
+            { text: '模型服务', link: '/triton/server' },
+            { text: '动态批处理', link: '/triton/batching' }
+          ]
+        }
+      ],
+      '/bentoml/': [
+        {
+          text: 'BentoML教程',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/bentoml/' },
+            { text: '模型打包', link: '/bentoml/packaging' },
+            { text: 'API服务', link: '/bentoml/api' }
           ]
         }
       ]
