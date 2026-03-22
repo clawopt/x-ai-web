@@ -248,9 +248,9 @@ layout: home
           </div>
         </a>
         <a href="/x-ai-web/cmake/" class="tutorial-item">
-          <div class="tutorial-icon" style="background: linear-gradient(135deg, #06b6d4, #0891b2); color: white;"><span class="iconify" data-icon="logos:cmake"></span></div>
+          <div class="tutorial-icon" style="background: linear-gradient(135deg, #06b6d4, #0891b2); color: white;"><span class="iconify" data-icon="simple-icons:cmake"></span></div>
           <div class="tutorial-content">
-            <div class="tutorial-title">CMake教程</div>
+            <div class="tutorial-title">CMake 教程</div>
             <div class="tutorial-desc">跨平台构建，target 管理</div>
           </div>
         </a>
@@ -295,7 +295,7 @@ layout: home
           </div>
         </a>
         <a href="/x-ai-web/milvus/" class="tutorial-item">
-          <div class="tutorial-icon" style="background: linear-gradient(135deg, #0ea5e9, #0284c7); color: white;"><span class="iconify" data-icon="mdi:database-network"></span></div>
+          <div class="tutorial-icon" style="background: linear-gradient(135deg, #0ea5e9, #0284c7); color: white;"><span class="iconify" data-icon="mdi:database-network-outline"></span></div>
           <div class="tutorial-content">
             <div class="tutorial-title">Milvus 教程</div>
             <div class="tutorial-desc">云原生 AI 数据库，十亿级规模</div>
@@ -335,7 +335,7 @@ layout: home
           </div>
         </a>
         <a href="/x-ai-web/cuda-cmake/" class="tutorial-item">
-          <div class="tutorial-icon" style="background: linear-gradient(135deg, #06b6d4, #0891b2); color: white;"><span class="iconify" data-icon="logos:cmake"></span></div>
+          <div class="tutorial-icon" style="background: linear-gradient(135deg, #06b6d4, #0891b2); color: white;"><span class="iconify" data-icon="simple-icons:cmake"></span></div>
           <div class="tutorial-content">
             <div class="tutorial-title">CUDA CMake</div>
             <div class="tutorial-desc">CUDA 项目构建，target 管理</div>
@@ -361,21 +361,21 @@ layout: home
       </div>
       <div class="tutorials-list">
         <a href="/x-ai-web/sklearn/" class="tutorial-item">
-          <div class="tutorial-icon" style="background: linear-gradient(135deg, #f7931e, #e07f00); color: white;"><span class="iconify" data-icon="logos:scikit-learn"></span></div>
+          <div class="tutorial-icon" style="background: linear-gradient(135deg, #f7931e, #e07f00); color: white;"><span class="iconify" data-icon="simple-icons:scikitlearn"></span></div>
           <div class="tutorial-content">
             <div class="tutorial-title">Scikit-learn 教程</div>
             <div class="tutorial-desc">ML 算法，预处理，模型选择</div>
           </div>
         </a>
         <a href="/x-ai-web/xgboost/" class="tutorial-item">
-          <div class="tutorial-icon" style="background: linear-gradient(135deg, #00b4d8, #0096c7); color: white;"><span class="iconify" data-icon="logos:xgboost"></span></div>
+          <div class="tutorial-icon" style="background: linear-gradient(135deg, #00b4d8, #0096c7); color: white;"><span class="iconify" data-icon="simple-icons:x"></span></div>
           <div class="tutorial-content">
             <div class="tutorial-title">XGBoost 教程</div>
             <div class="tutorial-desc">梯度提升，回归/分类/排序</div>
           </div>
         </a>
         <a href="/x-ai-web/lightgbm/" class="tutorial-item">
-          <div class="tutorial-icon" style="background: linear-gradient(135deg, #22c55e, #16a34a); color: white;"><span class="iconify" data-icon="logos:lightgbm"></span></div>
+          <div class="tutorial-icon" style="background: linear-gradient(135deg, #22c55e, #16a34a); color: white;"><span class="iconify" data-icon="mdi:leaf"></span></div>
           <div class="tutorial-content">
             <div class="tutorial-title">LightGBM 教程</div>
             <div class="tutorial-desc">微软 GBDT，速度快内存省</div>
@@ -394,7 +394,7 @@ layout: home
       </div>
       <div class="tutorials-list">
         <a href="/x-ai-web/pytorch/" class="tutorial-item">
-          <div class="tutorial-icon" style="background: linear-gradient(135deg, #ee4c2c, #d13b1c); color: white;"><span class="iconify" data-icon="logos:pytorch"></span></div>
+          <div class="tutorial-icon" style="background: linear-gradient(135deg, #ee4c2c, #d13b1c); color: white;"><span class="iconify" data-icon="simple-icons:pytorch"></span></div>
           <div class="tutorial-content">
             <div class="tutorial-title">PyTorch 教程</div>
             <div class="tutorial-desc">动态图，自动微分，nn.Module</div>
@@ -427,9 +427,9 @@ layout: home
       </div>
       <div class="tutorials-list">
         <a href="/x-ai-web/transformers/" class="tutorial-item">
-          <div class="tutorial-icon" style="background: linear-gradient(135deg, #ffcc00, #f0b400); color: #333;"><span class="iconify" data-icon="logos:huggingface"></span></div>
+          <div class="tutorial-icon" style="background: linear-gradient(135deg, #ffcc00, #f0b400); color: #333;"><span class="iconify" data-icon="simple-icons:huggingface"></span></div>
           <div class="tutorial-content">
-            <div class="tutorial-title">Transformers教程</div>
+            <div class="tutorial-title">Transformers 教程</div>
             <div class="tutorial-desc">预训练模型，Tokenizer，Trainer</div>
           </div>
         </a>
@@ -481,16 +481,16 @@ layout: home
           </div>
         </a>
         <a href="/x-ai-web/ollama/" class="tutorial-item">
-          <div class="tutorial-icon" style="background: linear-gradient(135deg, #6366f1, #4f46e5); color: white;"><span class="iconify" data-icon="mdi:llama"></span></div>
+          <div class="tutorial-icon" style="background: linear-gradient(135deg, #6366f1, #4f46e5); color: white;"><span class="iconify" data-icon="mdi:robot-happy"></span></div>
           <div class="tutorial-content">
-            <div class="tutorial-title">Ollama教程</div>
+            <div class="tutorial-title">Ollama 教程</div>
             <div class="tutorial-desc">一键本地 LLM，REST API</div>
           </div>
         </a>
         <a href="/x-ai-web/tensorrt/" class="tutorial-item">
-          <div class="tutorial-icon" style="background: linear-gradient(135deg, #76b900, #5a8f00); color: white;"><span class="iconify" data-icon="logos:nvidia"></span></div>
+          <div class="tutorial-icon" style="background: linear-gradient(135deg, #76b900, #5a8f00); color: white;"><span class="iconify" data-icon="mdi:cube-outline"></span></div>
           <div class="tutorial-content">
-            <div class="tutorial-title">TensorRT教程</div>
+            <div class="tutorial-title">TensorRT 教程</div>
             <div class="tutorial-desc">模型优化部署，ONNX 导入</div>
           </div>
         </a>
@@ -507,9 +507,9 @@ layout: home
       </div>
       <div class="tutorials-list">
         <a href="/x-ai-web/langchain/" class="tutorial-item">
-          <div class="tutorial-icon" style="background: linear-gradient(135deg, #1c3c3c, #0d1f1f); color: #00b4d8;"><span class="iconify" data-icon="logos:langchain"></span></div>
+          <div class="tutorial-icon" style="background: linear-gradient(135deg, #1c3c3c, #0d1f1f); color: #00b4d8;"><span class="iconify" data-icon="simple-icons:langchain"></span></div>
           <div class="tutorial-content">
-            <div class="tutorial-title">LangChain教程</div>
+            <div class="tutorial-title">LangChain 教程</div>
             <div class="tutorial-desc">Chain 链，Agent 智能体，Memory</div>
           </div>
         </a>
