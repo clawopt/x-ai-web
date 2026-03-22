@@ -150,14 +150,14 @@ layout: home
       <div class="category-intro">
         <img src="./images/oc.svg" alt="AI 编程教程" class="category-intro-image">
         <h3 class="category-intro-title">AI 编程教程</h3>
-        <p class="category-intro-desc">使用 AI 原生编程工具提升开发效率，包括 OpenClaw、ClaudeCode、Cursor 和 Trae 等智能代码助手。</p>
+        <p class="category-intro-desc">使用 AI 原生编程工具提升开发效率</p>
       </div>
       <div class="tutorials-list">
         <a href="/x-ai-web/openclaw/" class="tutorial-item">
           <div class="tutorial-icon" style="background: linear-gradient(135deg, #6366f1, #4f46e5); color: white;"><img src="./images/oc.svg" alt="OpenClaw" style="width: 100%; height: 100%; object-fit: contain;"></div>
           <div class="tutorial-content">
             <div class="tutorial-title">OpenClaw教程</div>
-            <div class="tutorial-desc">AI 私人助手，全天24h可用，无人值守编程</div>
+            <div class="tutorial-desc">AI私人助手，全天24h可用，无人值守编程</div>
           </div>
         </a>
         <a href="/x-ai-web/claude-code/" class="tutorial-item">
@@ -190,7 +190,7 @@ layout: home
       <div class="category-intro">
         <img src="./images/python.png" alt="Python教程" class="category-intro-image">
         <h3 class="category-intro-title">Python教程</h3>
-        <p class="category-intro-desc">掌握 AI 开发必备的编程语言和核心库，包括 Python 基础、NumPy 数值计算、Pandas 数据处理和 Matplotlib 可视化。</p>
+        <p class="category-intro-desc">掌握 AI 开发必备的编程语言和核心库</p>
       </div>
       <div class="tutorials-list">
         <a href="/x-ai-web/python/" class="tutorial-item">
@@ -230,7 +230,7 @@ layout: home
       <div class="category-intro">
         <img src="./images/cpp.svg" alt="C++教程" class="category-intro-image">
         <h3 class="category-intro-title">C++教程</h3>
-        <p class="category-intro-desc">从 C++ 基础到现代 C++ 特性，掌握 CMake 构建系统和 GDB 调试技能，为AI高性能计算和系统开发打下坚实基础。</p>
+        <p class="category-intro-desc">从 C++语言到项目构建</p>
       </div>
       <div class="tutorials-list">
         <a href="/x-ai-web/cpp/" class="tutorial-item">
@@ -270,7 +270,7 @@ layout: home
       <div class="category-intro">
         <img src="./images/chroma.png" alt="AI数据库教程" class="category-intro-image">
         <h3 class="category-intro-title">AI数据库教程</h3>
-        <p class="category-intro-desc">掌握多种AI数据库技术，包括 PG Vector、DuckDB、LanceDB、Milvus、Faiss 和 Chroma 等解决方案。</p>
+        <p class="category-intro-desc">面向AI时代的数据库技术</p>
       </div>
       <div class="tutorials-list">
         <a href="/x-ai-web/pgvector/" class="tutorial-item">
@@ -324,7 +324,7 @@ layout: home
       <div class="category-intro">
         <img src="./images/cuda.png" alt="GPU CUDA 教程" class="category-intro-image">
         <h3 class="category-intro-title">GPU CUDA 教程</h3>
-        <p class="category-intro-desc">掌握 GPU 并行计算核心技能，学习 CUDA C++、CUDA CMake 构建和 CUDA GDB 调试。</p>
+        <p class="category-intro-desc">掌握 GPU 并行计算核心技能</p>
       </div>
       <div class="tutorials-list">
         <a href="/x-ai-web/cuda/" class="tutorial-item">
@@ -357,7 +357,7 @@ layout: home
       <div class="category-intro">
         <img src="./images/sklearn.svg" alt="机器学习教程" class="category-intro-image">
         <h3 class="category-intro-title">机器学习教程</h3>
-        <p class="category-intro-desc">学习经典机器学习算法和工具，包括 Scikit-learn、XGBoost 和 LightGBM，打好 ML 基础。</p>
+        <p class="category-intro-desc">学习经典机器学习框架</p>
       </div>
       <div class="tutorials-list">
         <a href="/x-ai-web/sklearn/" class="tutorial-item">
@@ -390,7 +390,7 @@ layout: home
       <div class="category-intro">
         <img src="./images/pytorch.png" alt="深度学习教程" class="category-intro-image">
         <h3 class="category-intro-title">深度学习教程</h3>
-        <p class="category-intro-desc">掌握主流深度学习框架，包括 PyTorch 动态图、TensorFlow 生产部署和 PyTorch Lightning 工程化封装。</p>
+        <p class="category-intro-desc">掌握主流深度学习框架</p>
       </div>
       <div class="tutorials-list">
         <a href="/x-ai-web/pytorch/" class="tutorial-item">
@@ -423,7 +423,7 @@ layout: home
       <div class="category-intro">
         <img src="./images/transformers.jpeg" alt="大模型训练教程" class="category-intro-image">
         <h3 class="category-intro-title">大模型训练教程</h3>
-        <p class="category-intro-desc">学习大模型训练和微调技术，包括 Transformers 库、PEFT 高效微调、DeepSpeed 分布式训练和 Unsloth 快速微调。</p>
+        <p class="category-intro-desc">学习大模型训练和微调技术</p>
       </div>
       <div class="tutorials-list">
         <a href="/x-ai-web/transformers/" class="tutorial-item">
@@ -463,7 +463,7 @@ layout: home
       <div class="category-intro">
         <img src="./images/vllm.webp" alt="大模型推理部署层" class="category-intro-image">
         <h3 class="category-intro-title">大模型推理教程</h3>
-        <p class="category-intro-desc">掌握大模型推理优化和部署技术，包括 vLLM 高吞吐服务、TensorRT-LLM 量化、Ollama 一键部署和 TensorRT 模型优化。</p>
+        <p class="category-intro-desc">掌握大模型推理优化和部署技术</p>
       </div>
       <div class="tutorials-list">
         <a href="/x-ai-web/vllm/" class="tutorial-item">
@@ -502,8 +502,8 @@ layout: home
     <div class="category-layout">
       <div class="category-intro">
         <img src="./images/langchain.png" alt="LLM 应用开发教程" class="category-intro-image">
-        <h3 class="category-intro-title">LLM 应用开发教程</h3>
-        <p class="category-intro-desc">学习大模型应用开发框架，包括 LangChain 链式调用、LlamaIndex RAG 检索和 LangGraph 多 Agent 协作。</p>
+        <h3 class="category-intro-title">大模型应用开发教程</h3>
+        <p class="category-intro-desc">学习大模型应用开发框架</p>
       </div>
       <div class="tutorials-list">
         <a href="/x-ai-web/langchain/" class="tutorial-item">
