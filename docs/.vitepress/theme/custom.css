@@ -33,12 +33,42 @@
   content: none !important;
 }
 
-/* 侧边栏极致紧凑：强制归零 */
+/* 移除文档主体顶部的巨大空白 */
+.VPDoc[data-v-39a288b8] {
+  padding-top: 0 !important;
+}
+
+.VPDoc {
+  padding-top: 0 !important;
+}
+
+.vp-doc {
+  padding-top: 0 !important;
+}
+
+/* 针对文档主体内容容器的顶部间距清理 */
+.VPDoc .container {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.VPDoc .content {
+  padding-top: 0 !important;
+}
+
+/* 针对文档第一个标题的顶部外边距进行压缩 */
+.vp-doc h1:first-child,
+.vp-doc h2:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* 侧边栏极致紧凑：物理拉近方案 */
 .VPSidebar {
   border-right: 1px solid var(--vp-c-divider) !important;
 }
 
-/* 移除所有章节(level-0)和分组(group)的垂直间距 */
+/* 彻底移除所有章节(level-0)和分组(group)的垂直间距 */
 .VPSidebar .group,
 .VPSidebar .group + .group,
 .VPSidebarItem.level-0,
@@ -50,38 +80,45 @@
   border-top: none !important;
 }
 
+/* 针对侧边栏内部所有可能的容器进行零间距处理 */
+.VPSidebar .items,
+.VPSidebar .container,
+.VPSidebar .content,
+.VPSidebar .nav {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 /* 压缩项目内部高度，维持原始左右 padding 保证对齐 */
 .VPSidebarItem .item {
   display: flex !important;
   align-items: center !important;
   margin: 0 !important;
-  padding: 0 12px !important; /* 恢复原始左右留白感 */
-  min-height: 24px !important; /* 大幅降低最小高度 */
+  padding: 0 12px !important; 
+  min-height: 24px !important; /* 恢复到 24px 保证点击感 */
 }
 
 .VPSidebarItem .text {
   line-height: 24px !important; /* 匹配最小高度 */
   padding: 0 !important;
   margin: 0 !important;
+  font-size: 14px !important; /* 恢复正常字号，间距才是核心 */
 }
 
 .VPSidebarItem .caret {
   margin-left: auto !important;
 }
 
-/* 禁用所有伪元素产生的占位 */
+/* 针对 level-0 特有的底部外边距进行清除 */
+.VPSidebarItem.level-0 {
+  margin-bottom: 0 !important;
+}
+
+/* 彻底禁用产生额外高度的伪元素 */
 .VPSidebar *::before,
 .VPSidebar *::after {
   display: none !important;
   content: none !important;
-}
-
-/* 清除容器级所有间距 */
-.VPSidebar .nav,
-.VPSidebar .container,
-.VPSidebar .content {
-  padding: 0 !important;
-  margin: 0 !important;
 }
 
 /* 浅色模式 */

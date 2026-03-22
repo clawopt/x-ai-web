@@ -24,6 +24,23 @@ export default defineConfig({
       .VPSidebar * {
         border: none !important;
       }
+      .VPDoc[data-v-39a288b8],
+      .VPDoc,
+      .vp-doc {
+        padding-top: 0 !important;
+      }
+      .VPDoc .container {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+      }
+      .VPDoc .content {
+        padding-top: 0 !important;
+      }
+      .vp-doc h1:first-child,
+      .vp-doc h2:first-child {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+      }
       .VPSidebar .group,
       .VPSidebar .group + .group,
       .VPSidebarItem.level-0,
@@ -33,6 +50,13 @@ export default defineConfig({
         padding-top: 0 !important;
         padding-bottom: 0 !important;
         border-top: none !important;
+      }
+      .VPSidebar .items,
+      .VPSidebar .container,
+      .VPSidebar .content,
+      .VPSidebar .nav {
+        margin: 0 !important;
+        padding: 0 !important;
       }
       .VPSidebarItem .item {
         display: flex !important;
@@ -45,9 +69,13 @@ export default defineConfig({
         line-height: 24px !important;
         padding: 0 !important;
         margin: 0 !important;
+        font-size: 14px !important;
       }
       .VPSidebarItem .caret {
         margin-left: auto !important;
+      }
+      .VPSidebarItem.level-0 {
+        margin-bottom: 0 !important;
       }
       .VPSidebar *::before,
       .VPSidebar *::after {
@@ -56,12 +84,6 @@ export default defineConfig({
       }
       .VPSidebar {
         border-right: 1px solid var(--vp-c-divider) !important;
-      }
-      .VPSidebar .nav,
-      .VPSidebar .container,
-      .VPSidebar .content {
-        padding: 0 !important;
-        margin: 0 !important;
       }
     `],
   ],
