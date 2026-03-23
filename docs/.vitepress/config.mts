@@ -91,15 +91,105 @@ export default defineConfig({
       .VPSidebarItem .item .caret-icon {
         display: block !important;
       }
-      .vp-doc .header-anchor {
-        display: inline-block !important;
-        float: none !important;
-        position: static !important;
-        margin: 0 0.25em 0 0 !important;
-        vertical-align: middle !important;
-        text-decoration: none !important;
-        opacity: 0.7;
+      /* Heading anchors: top-left, no indent change, show on hover */
+      .vp-doc h1, .vp-doc h2, .vp-doc h3, .vp-doc h4, .vp-doc h5, .vp-doc h6 {
+        position: relative !important;
       }
+      .vp-doc .header-anchor {
+        position: absolute !important;
+        left: -0.45em !important;
+        top: 0.05em !important;
+        text-decoration: none !important;
+        opacity: 0;
+        transition: opacity 0.15s ease;
+      }
+      .vp-doc h1:hover .header-anchor,
+      .vp-doc h2:hover .header-anchor,
+      .vp-doc h3:hover .header-anchor,
+      .vp-doc h4:hover .header-anchor,
+      .vp-doc h5:hover .header-anchor,
+      .vp-doc h6:hover .header-anchor {
+        opacity: 0.75;
+      }
+      /* Right outline as slide-over panel with progress */
+      .VPDocAside, .VPDoc .aside {
+        transition: right 0.25s ease, opacity 0.25s ease, visibility 0.25s ease;
+        position: fixed !important;
+        display: block !important;
+        right: 0 !important;
+        top: 64px;
+        bottom: 0;
+        width: 280px;
+        background: var(--vp-c-bg) !important;
+        border-left: 1px solid var(--vp-c-divider) !important;
+        box-shadow: -4px 0 12px rgba(0,0,0,0.06);
+        padding: 12px;
+        overflow-y: auto;
+        z-index: 999;
+        opacity: 1 !important;
+        visibility: visible !important;
+        pointer-events: auto !important;
+      }
+      .VPDocAside .outline .outline-link.active {
+        color: var(--vp-c-brand-1) !important;
+        font-weight: 600 !important;
+      }
+      #outline-progress {
+        position: sticky;
+        top: 0;
+        height: 4px;
+        width: 0%;
+        background: var(--vp-c-brand-1);
+        border-radius: 2px;
+        margin-bottom: 8px;
+      }
+    `],
+    ['script', {}, `
+      (function() {
+        function ensureToggle() { /* 不需要按钮，保持默认显示 */ }
+        function ensureProgress() {
+          var aside = document.querySelector('.VPDocAside');
+          if (!aside) return;
+          if (!document.getElementById('outline-progress')) {
+            var bar = document.createElement('div');
+            bar.id = 'outline-progress';
+            aside.insertBefore(bar, aside.firstChild);
+          }
+          var progress = document.getElementById('outline-progress');
+          function updateProgress() {
+            var max = document.documentElement.scrollHeight - window.innerHeight;
+            var pct = max > 0 ? (window.scrollY / max) * 100 : 0;
+            if (progress) progress.style.width = pct.toFixed(2) + '%';
+          }
+          updateProgress();
+          window.addEventListener('scroll', updateProgress);
+        }
+        function trackActive() {
+          var headings = Array.from(document.querySelectorAll('.vp-doc h2[id], .vp-doc h3[id], .vp-doc h4[id], .vp-doc h5[id], .vp-doc h6[id]'));
+          var links = Array.from(document.querySelectorAll('.VPDocAside .outline .outline-link'));
+          function activate(id) {
+            links.forEach(function(l) {
+              l.classList.toggle('active', l.hash === '#' + id);
+            });
+          }
+          var obs = new IntersectionObserver(function(entries) {
+            entries.forEach(function(e) {
+              if (e.isIntersecting) activate(e.target.id);
+            });
+          }, { rootMargin: '0px 0px -70% 0px', threshold: 0.01 });
+          headings.forEach(function(h) { obs.observe(h); });
+        }
+        function init() {
+          ensureToggle();
+          ensureProgress();
+          trackActive();
+        }
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', init);
+        } else {
+          init();
+        }
+      })();
     `],
   ],
   themeConfig: {
@@ -737,6 +827,6 @@ export default defineConfig({
       ]
     },
 
-    outline: false
+    outline: { level: [2, 6] }
   }
 })
