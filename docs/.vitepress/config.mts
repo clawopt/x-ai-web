@@ -28,9 +28,39 @@ export default defineConfig({
       .VPSidebar .curtain { display: none !important; }
       .VPSidebar-nav { padding-top: 8px !important; } /* 进一步减小侧边栏内容顶部间距 */
       
-      /* 侧边栏分组标题间距优化 */
-      .VPSidebarItem.level-0 { margin-top: 0 !important; padding-top: 0 !important; }
-      .VPSidebarItem.level-0 .text { padding-top: 8px !important; padding-bottom: 8px !important; }
+      /* 终极方案 v3: 移除所有标题分割线 */
+      .VPDoc :where(h1,h2,h3,h4,h5,h6) { 
+        border-top: none !important; 
+        padding-top: 24px !important;
+      }
+      /* 隐藏侧边栏中作为独立 div 存在的分隔线 */
+      .VPSidebar .divider {
+        display: none !important;
+      }
+      /* 终极方案 v4: 移除所有可能的分割线 (border, div, box-shadow, pseudo-elements) */
+      /* 1. 隐藏作为独立 div 存在的分隔线 */
+      .VPSidebar .divider {
+        display: none !important;
+      }
+      /* 2. 移除侧边栏分组的上边框、上阴影、和伪元素 */
+      .VPSidebar .group {
+        border-top: none !important;
+        box-shadow: none !important;
+      }
+      .VPSidebar .group::before, .VPSidebar .group::after {
+        display: none !important;
+      }
+      /* 3. 为保险起见，对其他相关元素也进行处理 */
+      .VPSidebarGroup, 
+      .VPSidebarItem {
+        border-top: none !important;
+        box-shadow: none !important;
+      }
+
+      /* 隐藏侧边栏的辅助功能标签 */
+      #sidebar-aria-label {
+        display: none !important;
+      }
       
       .VPNav, .VPNavBar { border-bottom: none !important; box-shadow: none !important; }
       .VPLocalNav { display: none !important; }
