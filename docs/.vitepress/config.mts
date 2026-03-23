@@ -6,6 +6,11 @@ export default defineConfig({
   lang: 'zh-CN',
   base: '/x-ai-web/',
   appearance: false,
+  markdown: {
+    headers: {
+      level: [2, 6]
+    }
+  },
   head: [
     ['link', { rel: 'icon', href: './images/favicon.svg', type: 'image/svg+xml' }],
     ['meta', { name: 'keywords', content: 'AI编程,深度学习,CUDA,PyTorch,大模型,LLM,机器学习' }],
@@ -29,7 +34,7 @@ export default defineConfig({
       .vp-doc {
         padding-top: 0 !important;
       }
-      .VPDoc .container {
+      .VPDoc > .container {
         padding-top: 0 !important;
         margin-top: 0 !important;
       }
@@ -111,62 +116,59 @@ export default defineConfig({
       .vp-doc h6:hover .header-anchor {
         opacity: 0.75;
       }
-      /* Right outline as slide-over panel with progress */
-      .VPDocAside, .VPDoc .aside {
-        transition: right 0.25s ease, opacity 0.25s ease, visibility 0.25s ease;
-        position: fixed !important;
-        display: block !important;
-        right: 0 !important;
-        top: 64px;
-        bottom: 0;
-        width: 280px;
-        background: var(--vp-c-bg) !important;
-        border-left: 1px solid var(--vp-c-divider) !important;
-        box-shadow: -4px 0 12px rgba(0,0,0,0.06);
-        padding: 12px;
-        overflow-y: auto;
-        z-index: 999;
-        opacity: 1 !important;
-        visibility: visible !important;
-        pointer-events: auto !important;
-      }
-      .VPDocAside .outline .outline-link.active {
+      .VPDocAsideOutline .outline-link.active {
         color: var(--vp-c-brand-1) !important;
         font-weight: 600 !important;
       }
-      #outline-progress {
-        position: sticky;
-        top: 0;
-        height: 4px;
-        width: 0%;
-        background: var(--vp-c-brand-1);
-        border-radius: 2px;
-        margin-bottom: 8px;
+      @media (min-width: 960px) {
+        .VPDoc .aside {
+          display: block !important;
+          visibility: visible !important;
+          opacity: 1 !important;
+          pointer-events: auto !important;
+        }
       }
     `],
     ['script', {}, `
       (function() {
-        function ensureToggle() { /* 不需要按钮，保持默认显示 */ }
-        function ensureProgress() {
-          var aside = document.querySelector('.VPDocAside');
-          if (!aside) return;
-          if (!document.getElementById('outline-progress')) {
-            var bar = document.createElement('div');
-            bar.id = 'outline-progress';
-            aside.insertBefore(bar, aside.firstChild);
-          }
-          var progress = document.getElementById('outline-progress');
-          function updateProgress() {
-            var max = document.documentElement.scrollHeight - window.innerHeight;
-            var pct = max > 0 ? (window.scrollY / max) * 100 : 0;
-            if (progress) progress.style.width = pct.toFixed(2) + '%';
-          }
-          updateProgress();
-          window.addEventListener('scroll', updateProgress);
+        function buildOutline() {
+          var root = document.querySelector('.VPDocAsideOutline .VPDocOutlineItem.root');
+          if (!root) return;
+          if (root.childElementCount > 0) return;
+          var headings = Array.from(document.querySelectorAll('.vp-doc h2[id], .vp-doc h3[id]'));
+          var frag = document.createDocumentFragment();
+          var current = null;
+          headings.forEach(function(h) {
+            var level = h.tagName.toLowerCase() === 'h2' ? 2 : 3;
+            var li = document.createElement('li');
+            li.className = 'VPDocOutlineItem';
+            var a = document.createElement('a');
+            a.className = 'outline-link';
+            a.href = '#' + h.id;
+            a.textContent = h.textContent;
+            li.appendChild(a);
+            if (level === 2) {
+              current = li;
+              frag.appendChild(li);
+            } else {
+              if (current) {
+                var ul = current.querySelector('ul');
+                if (!ul) {
+                  ul = document.createElement('ul');
+                  ul.className = 'VPDocOutlineItem';
+                  current.appendChild(ul);
+                }
+                ul.appendChild(li);
+              } else {
+                frag.appendChild(li);
+              }
+            }
+          });
+          root.appendChild(frag);
         }
         function trackActive() {
           var headings = Array.from(document.querySelectorAll('.vp-doc h2[id], .vp-doc h3[id], .vp-doc h4[id], .vp-doc h5[id], .vp-doc h6[id]'));
-          var links = Array.from(document.querySelectorAll('.VPDocAside .outline .outline-link'));
+          var links = Array.from(document.querySelectorAll('.VPDocAsideOutline .outline-link'));
           function activate(id) {
             links.forEach(function(l) {
               l.classList.toggle('active', l.hash === '#' + id);
@@ -180,8 +182,7 @@ export default defineConfig({
           headings.forEach(function(h) { obs.observe(h); });
         }
         function init() {
-          ensureToggle();
-          ensureProgress();
+          buildOutline();
           trackActive();
         }
         if (document.readyState === 'loading') {
